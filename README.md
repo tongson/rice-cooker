@@ -1,0 +1,2 @@
+# cookish
+Single binary recipes.
