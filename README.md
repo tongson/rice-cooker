@@ -13,3 +13,4 @@ map                  | map from STDIN         | C     | MIT
 pipe_exec            | fileless ELF execution | C     | MIT
 rr                   | shell script over SSH  | Go    | MIT
 trim                 | remove prefix          | C     | MIT
+yq                   | YAML processor ala jq  | Go    | MIT
