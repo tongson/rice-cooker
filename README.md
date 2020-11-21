@@ -1,4 +1,4 @@
-# AWESOME SINGLE EXECUTABLES/OBJECT PROGRAMS
+# Awesome single executable/object programs
 Single binary recipes.
 
 Project                   | What                  | In    | License
