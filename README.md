@@ -1,5 +1,7 @@
 # Awesome single executable/object programs
 
+WARNING: Checks out from the main/master/default branch. Do your own tests.
+
 Project              | What                   | In    | License
 ---------------------|------------------------|-------|---------
 authelia             | SSO                    | Go    | APL2
