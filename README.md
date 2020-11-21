@@ -9,13 +9,14 @@ exa                  | ls(1) replacement      | Rust  | MIT
 gron                 | make JSON greppable    | Go    | MIT
 hi                   | light grep(1)          | C     | MIT
 jql                  | Lispy JSON processor   | Go    | MIT 
-kapow                | Shell script to HTTP   | Go    | APL2
-mailcat              | Dummy SMTP server      | C     | MIT
+kapow                | shell script to HTTP   | Go    | APL2
+mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
 pipe_exec            | fileless ELF execution | C     | MIT
-qgrep                | Fast indexed grep(1)   | C++   | MIT
+qgrep                | fast indexed grep(1)   | C++   | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
 trim                 | remove prefix          | C     | MIT
 yq                   | YAML processor ala jq  | Go    | MIT
+
 
