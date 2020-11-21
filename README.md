@@ -10,3 +10,5 @@ jql                  | Lispy JSON processor   | Go    | MIT
 kapow                | Shell script to HTTP   | Go    | APL2
 mailcat              | Dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
+pipe_exec            | fileless ELF execution | C     | MIT
+
