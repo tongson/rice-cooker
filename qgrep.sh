@@ -1,8 +1,10 @@
 #!/usr/bin/env dash
 set -efu
+export LC_ALL=C
 rm -rf qgrep
 git clone --depth 1 https://github.com/zeux/qgrep
-cd qgrep || exit 1
+cd qgrep
+_V=$(git rev-parse --short HEAD)
 rm -rf extern/lz4
 rm -rf extern/re2
 git clone --depth 1 https://github.com/lz4/lz4 extern/lz4
@@ -23,4 +25,4 @@ patch -p1 <<-'EOP'
  CCFLAGS+=-force_cpusubtype_ALL -mmacosx-version-min=10.7 -stdlib=libc++
 EOP
 make
-mv qgrep ../qgrep.bin
+mv qgrep "../qgrep.${_V}.exe"
