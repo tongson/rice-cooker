@@ -12,6 +12,7 @@ gron                 | make JSON greppable    | Go    | MIT
 hi                   | light grep(1)          | C     | MIT
 jql                  | Lispy JSON processor   | Go    | MIT 
 kapow                | shell script to HTTP   | Go    | APL2
+lefthook             | git hooks manager      | Go    | MIT
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
 pexec                | fileless ELF execution | C     | MIT
