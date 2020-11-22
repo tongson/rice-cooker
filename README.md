@@ -13,7 +13,7 @@ jql                  | Lispy JSON processor   | Go    | MIT
 kapow                | shell script to HTTP   | Go    | APL2
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
-pipe_exec            | fileless ELF execution | C     | MIT
+pexec                | fileless ELF execution | C     | MIT
 qgrep                | fast indexed grep(1)   | C++   | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
