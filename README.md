@@ -4,6 +4,7 @@ WARNING: Checks out from the main/master/default branch. Do your own tests.
 
 Project              | What                   | In    | License
 ---------------------|------------------------|-------|---------
+age                  | Modern encryption tool | Go    | BSD3
 authelia             | SSO                    | Go    | APL2
 awsls                | list AWS resources     | Go    | MIT
 coredns              | DNS server/forwarder   | Go    | APL2
