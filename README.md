@@ -5,9 +5,11 @@ WARNING: Checks out from the main/master/default branch. Do your own tests.
 Project              | What                   | In    | License
 ---------------------|------------------------|-------|---------
 age                  | Modern encryption tool | Go    | BSD3
+alertmanager         | Prometheus alerts      | Go    | APL2
 authelia             | SSO                    | Go    | APL2
 awsls                | list AWS resources     | Go    | MIT
 bitcask              | Key/Value store        | Go    | MIT
+blacbox_exporter     | Prometheus exporter    | Go    | APL2
 coredns              | DNS server/forwarder   | Go    | APL2
 direnv               | shell environments     | Go    | MIT
 exa                  | ls(1) replacement      | Rust  | MIT
@@ -19,7 +21,9 @@ kapow                | shell script to HTTP   | Go    | APL2
 lefthook             | git hooks manager      | Go    | MIT
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
+node_exporter        | Prometheus exporter    | Go    | APL2
 pexec                | fileless ELF execution | C     | MIT
+prometheus           | metrics                | Go    | APL2
 qgrep                | fast indexed grep(1)   | C++   | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
