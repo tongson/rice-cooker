@@ -21,6 +21,7 @@ kapow                | shell script to HTTP   | Go    | APL2
 lefthook             | git hooks manager      | Go    | MIT
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
+mtail                | Prometheus exporter    | Go    | APL2
 node_exporter        | Prometheus exporter    | Go    | APL2
 pexec                | fileless ELF execution | C     | MIT
 prometheus           | metrics                | Go    | APL2
