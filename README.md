@@ -7,6 +7,7 @@ Project              | What                   | In    | License
 age                  | Modern encryption tool | Go    | BSD3
 authelia             | SSO                    | Go    | APL2
 awsls                | list AWS resources     | Go    | MIT
+bitcask              | Key/Value store        | Go    | MIT
 coredns              | DNS server/forwarder   | Go    | APL2
 direnv               | shell environments     | Go    | MIT
 exa                  | ls(1) replacement      | Rust  | MIT
