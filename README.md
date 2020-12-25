@@ -27,11 +27,14 @@ node_exporter        | Prometheus exporter    | Go    | APL2
 pexec                | fileless ELF execution | C     | MIT
 prometheus           | metrics                | Go    | APL2
 qgrep                | fast indexed grep(1)   | C++   | MIT
+redwood              | HTTP proxy             | Go    | BSD2
+refmt                | json, yaml, toml       | Rust  | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT
 traefik              | Modern reverse proxy   | Go    | MIT
 trim                 | remove prefix          | C     | MIT
+unbound_exporter     | Prometheus exporter    | Go    | APL2
 warp-cwd             | static http server     | Rust  | MIT
 yq                   | YAML processor ala jq  | Go    | MIT
 
