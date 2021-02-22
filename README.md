@@ -16,6 +16,7 @@ direnv               | shell environments     | Go    | MIT
 dog                  | DNS cli like dig       | Rust  | EUPL
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
+gopls                | golang tools gopls     | Go    | BSD3
 gron                 | make JSON greppable    | Go    | MIT
 hi                   | light grep(1)          | C     | MIT
 jql                  | Lispy JSON processor   | Go    | MIT 
