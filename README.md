@@ -13,6 +13,7 @@ blacbox_exporter     | Prometheus exporter    | Go    | APL2
 cloudquery           | Osquery for the cloud  | Go    | MPL2
 coredns              | DNS server/forwarder   | Go    | APL2
 direnv               | shell environments     | Go    | MIT
+dlv                  | golang delve(debugger) | Go    | MIT
 dog                  | DNS cli like dig       | Rust  | EUPL
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
