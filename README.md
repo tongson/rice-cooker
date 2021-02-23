@@ -17,6 +17,7 @@ dlv                  | golang delve(debugger) | Go    | MIT
 dog                  | DNS cli like dig       | Rust  | EUPL
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
+gopkgs               | list Go packages       | Go    | MIT
 gopls                | golang tools gopls     | Go    | BSD3
 gron                 | make JSON greppable    | Go    | MIT
 hi                   | light grep(1)          | C     | MIT
