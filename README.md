@@ -1,5 +1,8 @@
 # Awesome single executable/object programs
 
+BYOB(Build your own binaries)
+Brings me back to my Gentoo & Source Mage days.
+
 WARNING: Checks out from the main/master/default branch. Do your own tests.
 
 Project              | What                   | In    | License
