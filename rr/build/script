@@ -1,6 +1,5 @@
-_SRC="https://github.com/tongson/rr"
-_TAG="0.0.5"
-git clone --depth 1 --branch "${_TAG}" "${_SRC}"
-cd rr
-GOOS=linux CGO_ENABLED=0 go build -trimpath -o "${_TARGET}/rr.${_TAG}.exe" -ldflags '-s -w -extldflags "-static"' ./cmd/rr
-rm -rf "${_WORK}"
+SRC="https://github.com/tongson/rr"
+NAME="rr"
+TAG="0.0.5"
+_git_clone_tag
+_go_static_build ./cmd/rr
