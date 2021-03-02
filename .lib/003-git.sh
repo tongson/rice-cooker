@@ -5,5 +5,5 @@ _git_clone_tag()
 
 _git_clone()
 {
-  git clone --depth 1 "${TAG}" "${NAME}"
+  git clone --depth 1 "${SRC}" "${NAME}"
 }
