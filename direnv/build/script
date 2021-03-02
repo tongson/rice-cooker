@@ -1,4 +1,3 @@
-_D=$(mktemp -d); cd "${_D}"
 git clone --depth 1 https://github.com/direnv/direnv
 cd direnv
 _V=$(git rev-parse --short HEAD)
