@@ -1,3 +1,4 @@
-mkdir -p "${HOME}/bin"
-_D=$(mktemp -d)
-cd "${_D}"
+_TARGET="${HOME}/bin"
+mkdir -p "${_TARGET}"
+_WORK=$(mktemp -d)
+cd "${_WORK}"
