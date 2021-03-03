@@ -8,3 +8,10 @@ _go_static_build()
     -o "${_TARGET}/${bin}.${tag}" "${1}" 
   cd -
 }
+
+_go_generate()
+{
+  cd "${NAME}"
+  go generate
+  cd -
+}
