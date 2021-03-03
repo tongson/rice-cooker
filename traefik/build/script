@@ -1,0 +1,7 @@
+SRC="https://github.com/traefik/traefik"
+NAME="traefik"
+TAG="v2.3.5"
+_git_clone_tag
+_go_generate
+export GOGC=off
+_go_static_build ./cmd/traefik
