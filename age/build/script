@@ -1,5 +1,5 @@
 SRC="https://github.com/FiloSottile/age"
 NAME="age"
-_git_clone_src
-_go_static_build ./cmd/age age
-_go_static_build ./cmd/age-keygen age-keygen
+_git_clone
+_go_build ./cmd/age age
+_go_build ./cmd/age-keygen age-keygen
