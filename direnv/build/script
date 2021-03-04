@@ -1,4 +1,4 @@
 SRC="https://github.com/direnv/direnv"
 NAME="direnv"
-_git_clone_src
-_go_static_build .
+_git_clone
+_go_build .
