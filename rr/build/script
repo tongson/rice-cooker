@@ -2,4 +2,4 @@ SRC="https://github.com/tongson/rr"
 NAME="rr"
 TAG="0.0.5"
 _git_clone_tag
-_go_static_build ./cmd/rr
+_go_build ./cmd/rr
