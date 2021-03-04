@@ -1,4 +1,4 @@
 SRC="https://github.com/BurntSushi/ripgrep"
 NAME="rg"
-_git_clone_src
+_git_clone
 _cargo_build
