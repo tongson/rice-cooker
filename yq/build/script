@@ -1,4 +1,4 @@
 SRC="https://github.com/mikefarah/yq"
 NAME="yq"
-_git_clone_src
-_go_static_build yq.go
+_git_clone
+_go_build yq.go
