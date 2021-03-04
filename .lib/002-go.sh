@@ -1,4 +1,4 @@
-_go_static_build()
+_go_build()
 (
   cd "${NAME}" || exit
   local tag="${TAG:-$(git rev-parse --short HEAD)}"
