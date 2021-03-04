@@ -3,5 +3,5 @@ SRC="https://github.com/soveran/mailcat"
 NAME="mailcat"
 export CFLAGS="-DNDEBUG -O3 -march=nehalem -mtune=haswell -msse4.2 -pipe -fomit-frame-pointer -ffunction-sections -fdata-sections"
 export LDFLAGS="-Wl,--gc-sections,--strip-all"
-_git_clone_src
+_git_clone
 _cc mailcat.c
