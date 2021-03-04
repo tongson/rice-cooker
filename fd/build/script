@@ -1,4 +1,4 @@
 SRC="https://github.com/sharkdp/fd"
 NAME="fd"
-_git_clone_src
+_git_clone
 _cargo_build
