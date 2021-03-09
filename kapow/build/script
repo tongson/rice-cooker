@@ -1,0 +1,4 @@
+SRC="https://github.com/BBVA/kapow"
+NAME="kapow"
+_git_clone
+_go_build .
