@@ -1,0 +1,6 @@
+SRC="https://github.com/koraa/pipe_exec"
+NAME="pexec"
+export CFLAGS="-D_GNU_SOURCE=1 -DNDEBUG -O3 -march=nehalem -mtune=haswell -msse4.2 -pipe -fomit-frame-pointer -ffunction-sections -fdata-sections"
+export LDFLAGS="-Wl,--gc-sections,--strip-all"
+_git_clone
+_cc pexec.c
