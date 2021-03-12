@@ -1,0 +1,5 @@
+TAG="v2.23.0"
+SRC="https://github.com/prometheus/prometheus"
+NAME="prometheus"
+_git_clone_tag
+_go_build ./cmd/prometheus
