@@ -1,0 +1,5 @@
+TAG="v0.4.2"
+SRC="https://github.com/cloudquery/cloudquery"
+NAME="cloudquery"
+_git_clone_tag
+_go_build
