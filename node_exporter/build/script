@@ -1,0 +1,5 @@
+TAG="v1.0.1"
+SRC="https://github.com/prometheus/node_exporter"
+NAME="node_exporter"
+_git_clone_tag
+_go_build
