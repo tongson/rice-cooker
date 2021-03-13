@@ -1,0 +1,5 @@
+TAG="v1.8.0"
+SRC="https://github.com/coredns/coredns"
+NAME="coredns"
+_git_clone_tag
+_go_build
