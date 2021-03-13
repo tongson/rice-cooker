@@ -1,7 +1,7 @@
 SRC="https://github.com/zeux/qgrep"
 NAME="qgrep"
 _git_clone
-cd "$_WORK/qgrep" || exit
+cd "${_WORK}/qgrep" || exit
 rm -rf extern/lz4
 rm -rf extern/re2
 git clone --depth 1 https://github.com/lz4/lz4 extern/lz4
