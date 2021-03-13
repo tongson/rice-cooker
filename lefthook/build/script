@@ -1,0 +1,4 @@
+SRC="https://github.com/Arkweid/lefthook"
+NAME="lefthook"
+_git_clone
+_go_build
