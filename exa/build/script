@@ -1,0 +1,4 @@
+SRC="https://github.com/ogham/exa"
+NAME="exa"
+_git_clone
+_cargo_build
