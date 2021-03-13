@@ -1,0 +1,4 @@
+SRC="https://github.com/DarthSim/hivemind"
+NAME="hivemind"
+_git_clone
+_go_build
