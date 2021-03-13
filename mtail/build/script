@@ -1,0 +1,5 @@
+TAG="v3.0.0-rc38"
+SRC="https://github.com/google/mtail"
+NAME="mtail"
+_git_clone_tag
+_go_build ./cmd/mtail
