@@ -1,0 +1,4 @@
+SRC="https://github.com/tomnomnom/gron"
+NAME="gron"
+_git_clone
+_go_build
