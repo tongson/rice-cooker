@@ -1,0 +1,4 @@
+SRC="https://github.com/yoshihitoh/refmt"
+NAME="refmt"
+_git_clone
+_cargo_build
