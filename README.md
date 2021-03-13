@@ -1,7 +1,7 @@
 # Awesome single executable/object programs
 
-BYOB(Build your own binaries) <br \>
-Brings me back to my Gentoo & Source Mage days. <br \>
+BYOB(Build your own binaries) <br/>
+Brings me back to my Gentoo & Source Mage days. <br/>
 
 WARNING: Checks out from the main/master/default branch. Do your own tests.
 
