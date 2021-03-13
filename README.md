@@ -26,6 +26,7 @@ gopkgs               | list Go packages       | Go    | MIT
 gopls                | golang tools gopls     | Go    | BSD3
 gron                 | make JSON greppable    | Go    | MIT
 hi                   | light grep(1)          | C     | MIT
+hivemind             | Procfile manager       | Go    | MIT
 horust               | Process supervisor     | Rust  | MIT
 jql                  | Lispy JSON processor   | Go    | MIT 
 kapow                | shell script to HTTP   | Go    | APL2
