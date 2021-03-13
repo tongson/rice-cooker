@@ -13,7 +13,7 @@ _git_clone_url()
   git clone --depth 1 "${1}"
 }
 
-_git_get_rev()
+_git_head()
 {
   git rev-parse --short HEAD
 }
