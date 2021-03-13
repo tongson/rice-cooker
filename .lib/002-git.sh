@@ -12,3 +12,8 @@ _git_clone_url()
 {
   git clone --depth 1 "${1}"
 }
+
+_git_get_rev()
+{
+  git rev-parse --short HEAD
+}
