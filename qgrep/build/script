@@ -22,4 +22,4 @@ patch -p1 <<-'EOP'
  CCFLAGS+=-force_cpusubtype_ALL -mmacosx-version-min=10.7 -stdlib=libc++
 EOP
 make
-mv qgrep "${_TARGET}/qgrep.$(_git_get_rev)"
+mv qgrep "${_TARGET}/qgrep.$(_git_head)"
