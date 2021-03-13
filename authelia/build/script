@@ -1,0 +1,5 @@
+TAG="v4.24.1"
+SRC="https://github.com/authelia/authelia"
+NAME="authelia"
+_git_clone_tag
+_go_build ./cmd/authelia
