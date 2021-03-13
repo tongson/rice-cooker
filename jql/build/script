@@ -1,0 +1,4 @@
+SRC="https://github.com/cube2222/jql"
+NAME="jql"
+_git_clone
+_go_build
