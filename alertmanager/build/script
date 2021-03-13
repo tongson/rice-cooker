@@ -1,0 +1,5 @@
+TAG="v0.21.0"
+SRC="https://github.com/prometheus/alertmanager"
+NAME="alertmanager"
+_git_clone_tag
+_go_build ./cmd/alertmanager
