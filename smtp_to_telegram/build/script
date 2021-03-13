@@ -1,0 +1,4 @@
+SRC="https://github.com/KostyaEsmukov/smtp_to_telegram"
+NAME="smtp_to_telegram"
+_git_clone
+_go_build
