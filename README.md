@@ -44,7 +44,7 @@ terraform            | Premier IaaC tool      | Go    | MPL2
 traefik              | Modern reverse proxy   | Go    | MIT
 trim                 | remove prefix          | C     | MIT
 unbound_exporter     | Prometheus exporter    | Go    | APL2
-warp-cwd             | static http server     | Rust  | MIT
+swarp                | static http server     | Rust  | MIT
 yq                   | YAML processor ala jq  | Go    | MIT
 
 
