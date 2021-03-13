@@ -1,0 +1,4 @@
+SRC="https://github.com/FedericoPonzi/Horust"
+NAME="horust"
+_git_clone
+_cargo_build
