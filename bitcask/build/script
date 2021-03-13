@@ -1,0 +1,6 @@
+TAG="v0.3.9"
+SRC="https://github.com/prologic/bitcask"
+NAME="bitcask"
+_git_clone_tag
+_go_build "./cmd/bitcask/..." bitcask
+_go_build "./cmd/bitcaskd/..." bitcaskd
