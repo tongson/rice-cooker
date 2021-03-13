@@ -1,0 +1,5 @@
+TAG="v0.18.0"
+SRC="https://github.com/prometheus/blackbox_exporter"
+NAME="blackbox_exporter"
+_git_clone_tag
+_go_build
