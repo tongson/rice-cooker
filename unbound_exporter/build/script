@@ -1,0 +1,4 @@
+SRC="https://github.com/kumina/unbound_exporter"
+NAME="unbound_exporter"
+_git_clone
+_go_build
