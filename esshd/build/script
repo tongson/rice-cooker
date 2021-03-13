@@ -1,0 +1,4 @@
+SRC="https://github.com/tongson/esshd"
+NAME="esshd"
+_git_clone
+_go_build ./cmd/esshd
