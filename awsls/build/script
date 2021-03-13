@@ -1,0 +1,4 @@
+SRC="https://github.com/jckuester/awsls"
+NAME="awsls"
+_git_clone
+_go_build .
