@@ -20,6 +20,7 @@ coredns              | DNS server/forwarder   | Go    | APL2
 direnv               | shell environments     | Go    | MIT
 dlv                  | golang delve(debugger) | Go    | MIT
 dog                  | DNS cli like dig       | Rust  | EUPL
+esshd                | Ephemeral sshd         | Go    | MIT
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
 gopkgs               | list Go packages       | Go    | MIT
