@@ -1,0 +1,4 @@
+SRC="https://github.com/RedisJSON/RedisJSON"
+NAME="librejson.so"
+_git_clone
+_cargo_build
