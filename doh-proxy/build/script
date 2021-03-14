@@ -1,0 +1,4 @@
+SRC="https://github.com/jedisct1/doh-server"
+NAME="doh-proxy"
+_git_clone
+_cargo_build
