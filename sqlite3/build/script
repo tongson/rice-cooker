@@ -4,7 +4,6 @@ VERSION="3.35.0"
 
 _get
 _unzip
-cd "${_WORK}/${NAME}" || exit 1
 
 export CFLAGS="-DNDEBUG -O3 -march=nehalem -mtune=haswell -msse4.2 -pipe -fomit-frame-pointer -ffunction-sections -fdata-sections"
 export LDFLAGS="-Wl,--as-needed,--gc-sections,--strip-all"
@@ -27,11 +26,10 @@ export SFLAGS="-fno-strict-aliasing \
 -DSQLITE_ENABLE_UPDATE_DELETE_LIMIT \
 -DSQLITE_USE_URI"
 
-
+cd "${_WORK}/${NAME}" || exit 1
 cc -v "${CFLAGS} ${SFLAGS}" \
   shell.c sqlite3.c -lpthread -ldl -lm "${LDFLAGS}" -o sqlite3
 cc -v "${CFLAGS} ${SFLAGS}" \
   sqlite3.c -shared -fPIC -lpthread -ldl -lm "${LDFLAGS}" -o libsqlite3.so
-
 mv sqlite3 "${_TARGET}/sqlite3.${VERSION}"
 mv libsqlite3.so "${_TARGET}/libsqlite3.so.${VERSION}"
