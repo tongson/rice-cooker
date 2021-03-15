@@ -1,5 +1,6 @@
 SRC="https://www.sqlite.org/2021/sqlite-amalgamation-3350000.zip"
 NAME="sqlite-amalgamation-3350000"
+VERSION="3.35.0"
 
 _get
 _unzip
@@ -32,5 +33,5 @@ cc -v "${CFLAGS} ${SFLAGS}" \
 cc -v "${CFLAGS} ${SFLAGS}" \
   sqlite3.c -shared -fPIC -lpthread -ldl -lm "${LDFLAGS}" -o libsqlite3.so
 
-mv sqlite3 "${_TARGET}"
-mv libsqlite3.so "${_TARGET}"
+mv sqlite3 "${_TARGET}/sqlite3.${VERSION}"
+mv libsqlite3.so "${_TARGET}/libsqlite3.so.${VERSION}"
