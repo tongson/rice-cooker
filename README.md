@@ -45,6 +45,7 @@ refmt                | json, yaml, toml       | Rust  | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT
+sqlite3              | No description needed  | C     | PD
 terraform            | Premier IaaC tool      | Go    | MPL2
 traefik              | Modern reverse proxy   | Go    | MIT
 trim                 | remove prefix          | C     | MIT
