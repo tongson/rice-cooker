@@ -15,6 +15,7 @@ authelia             | SSO                    | Go    | APL2
 awsls                | list AWS resources     | Go    | MIT
 bitcask              | Key/Value store        | Go    | MIT
 blacbox_exporter     | Prometheus exporter    | Go    | APL2
+blake3               | FFI wrapper            | Rust  | MIT
 cloudquery           | Osquery for the cloud  | Go    | MPL2
 coredns              | DNS server/forwarder   | Go    | APL2
 direnv               | shell environments     | Go    | MIT
