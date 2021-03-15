@@ -1,0 +1,4 @@
+SRC="https://github.com/tongson/blake3"
+NAME="libblake.so"
+_git_clone
+_cargo_build
