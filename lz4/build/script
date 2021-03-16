@@ -1,0 +1,14 @@
+SRC="https://github.com/Cyan4973/lz4"
+NAME="lz4"
+TAG="v1.9.3"
+VERSION="1.9.3"
+
+_git_clone_tag
+
+export CFLAGS="-DNDEBUG -O3 -march=nehalem -mtune=haswell -msse4.2 -pipe -fomit-frame-pointer -ffunction-sections -fdata-sections"
+export LDFLAGS="-Wl,--as-needed,--gc-sections,--strip-all"
+export FLAGS="-I."
+cd "${_WORK}/${NAME}/lib" || exit 1
+cc -v "${CFLAGS} ${FLAGS}" \
+  lz4.c lz4frame.c lz4hc.c xxhash.c -shared -fPIC "${LDFLAGS}" -o liblz4.so
+mv liblz4.so "${_TARGET}/liblz4.so.${VERSION}"
