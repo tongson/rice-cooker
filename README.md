@@ -33,6 +33,7 @@ horust               | Process supervisor     | Rust  | MIT
 jql                  | Lispy JSON processor   | Go    | MIT 
 kapow                | shell script to HTTP   | Go    | APL2
 lefthook             | git hooks manager      | Go    | MIT
+lz4                  | Fast compression lib   | C     | BSD2
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
 mtail                | Prometheus exporter    | Go    | APL2
