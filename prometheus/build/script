@@ -1,4 +1,4 @@
-TAG="v2.25.0"
+TAG="v2.25.2"
 SRC="https://github.com/prometheus/prometheus"
 NAME="prometheus"
 _git_clone_tag
