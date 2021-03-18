@@ -31,6 +31,7 @@ __ok()
 
 __fnmatch()
 {
+    # shellcheck disable=SC2254
     case "$2" in $1) return 0 ;; *) return 1 ;; esac ;
 }
 
