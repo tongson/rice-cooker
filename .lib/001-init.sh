@@ -4,4 +4,4 @@ _SRC="${HOME}/src"
 mkdir -p "${_SRC}"
 _WORK=$(mktemp -d)
 trap 'rm -rf "${_WORK}"; trap - EXIT; exit' EXIT INT HUP
-cd "${_WORK}"
+cd "${_WORK}" || exit 1
