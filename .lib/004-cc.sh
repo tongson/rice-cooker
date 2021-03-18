@@ -1,5 +1,11 @@
+_cc_prelude()
+{
+  command -v cc || { printf "cc (C compiler) not found.\\n"; exit 1; }
+}
+
 _cc()
 (
+  _cc_prelude
   cd "${NAME}" || exit
   local tag="${TAG:-$(git rev-parse --short HEAD)}"
   local bin="${2:-${NAME}}"
