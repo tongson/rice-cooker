@@ -1,4 +1,4 @@
-TAG="v0.14.7"
+TAG="v0.14.8"
 SRC="https://github.com/hashicorp/terraform"
 NAME="terraform"
 _git_clone_tag
