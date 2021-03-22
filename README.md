@@ -49,6 +49,7 @@ rr                   | shell script over SSH  | Go    | MIT
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT
 sqlite3              | No description needed  | C     | PD
 terraform            | Premier IaaC tool      | Go    | MPL2
+tflow2               | Netflow/Sflow analyzer | Go    | APL2
 traefik              | Modern reverse proxy   | Go    | MIT
 trim                 | remove prefix          | C     | MIT
 unbound_exporter     | Prometheus exporter    | Go    | APL2
