@@ -1,0 +1,7 @@
+TAG="v0.5.0"
+SRC="https://github.com/bio-routing/flowhouse"
+NAME="flowhouse"
+_git_clone_tag
+cd "${_WORK}/${NAME}/pkg/frontend" || exit 1
+go-bindata -pkg frontend assets/
+_go_build ./cmd/flowhouse
