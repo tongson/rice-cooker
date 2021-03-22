@@ -24,6 +24,7 @@ dog                  | DNS cli like dig       | Rust  | EUPL
 esshd                | Ephemeral sshd         | Go    | MIT
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
+flowhouse            | Clickhouse/sflow       | Go    | APL2
 gopkgs               | list Go packages       | Go    | MIT
 gopls                | golang tools gopls     | Go    | BSD3
 gron                 | make JSON greppable    | Go    | MIT
