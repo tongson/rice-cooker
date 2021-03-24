@@ -40,6 +40,7 @@ map                  | map from STDIN         | C     | MIT
 mtail                | Prometheus exporter    | Go    | APL2
 node_exporter        | Prometheus exporter    | Go    | APL2
 pexec                | fileless ELF execution | C     | MIT
+procs                | ps replacement         | Rust  | MIT
 prometheus           | metrics                | Go    | APL2
 qgrep                | fast indexed grep(1)   | C++   | MIT
 redwood              | HTTP proxy             | Go    | BSD2
