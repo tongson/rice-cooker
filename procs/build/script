@@ -1,0 +1,5 @@
+SRC="https://github.com/dalance/procs"
+NAME="procs"
+TAG="v0.11.4"
+_git_clone_tag
+_cargo_build
