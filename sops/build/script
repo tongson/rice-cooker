@@ -1,0 +1,6 @@
+SRC="https://github.com/mozilla/sops"
+NAME="sops"
+TAG="v3.7.0"
+_git_clone_tag
+_go_generate
+_go_build ./cmd/sops
