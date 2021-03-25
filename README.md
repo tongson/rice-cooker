@@ -49,6 +49,7 @@ refmt                | json, yaml, toml       | Rust  | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT
+sops                 | simple secrets manager | Go    | MPL2
 sqlite3              | No description needed  | C     | PD
 terraform            | Premier IaaC tool      | Go    | MPL2
 tflow2               | Netflow/Sflow analyzer | Go    | APL2
