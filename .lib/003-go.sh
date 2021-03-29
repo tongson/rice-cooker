@@ -1,6 +1,6 @@
 _go_prelude()
 {
-  command -v go || { printf "go command not found.\\n"; exit 1; }
+  command -v go >&- || { printf "go command not found.\\n"; exit 1; }
 }
 
 _go_build()
@@ -10,6 +10,7 @@ _go_build()
   local tag="${TAG:-$(git rev-parse --short HEAD)}"
   local bin="${2:-${NAME}}"
   local x="${1:-.}"
+  __mark "go build ${bin}"
   GOOS=linux CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w -extldflags "-static"' \
     -o "${_TARGET}/${bin}.${tag}" "${x}"
