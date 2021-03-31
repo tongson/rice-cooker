@@ -1,0 +1,5 @@
+SRC="https://github.com/tongson/ljredis"
+NAME="libljredis.so"
+TAG="0.1.0"
+_git_clone_tag
+_cargo_build
