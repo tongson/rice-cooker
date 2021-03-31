@@ -27,6 +27,7 @@ fd                   | findutils replacement  | Rust  | MIT
 flowhouse            | Clickhouse/sflow       | Go    | APL2
 gopkgs               | list Go packages       | Go    | MIT
 gopls                | golang tools gopls     | Go    | BSD3
+gosec                | golang security lint   | Go    | APL2
 gron                 | make JSON greppable    | Go    | MIT
 hi                   | light grep(1)          | C     | MIT
 hivemind             | Procfile supervisor    | Go    | MIT
