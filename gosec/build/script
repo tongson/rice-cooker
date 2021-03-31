@@ -1,0 +1,5 @@
+TAG="v2.7.0"
+SRC="https://github.com/securego/gosec"
+NAME="gosec"
+_git_clone_tag
+_go_build ./cmd/gosec
