@@ -1,5 +1,4 @@
 SRC="https://github.com/tongson/swarp"
 NAME="swarp"
-TAG="0.2.0"
-_git_clone_tag
+_git_clone
 _cargo_build
