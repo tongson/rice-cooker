@@ -1,0 +1,5 @@
+TAG="2020.2.3"
+SRC="https://github.com/dominikh/go-tools"
+NAME="staticcheck"
+_git_clone_tag
+_go_build ./cmd/staticcheck
