@@ -59,6 +59,7 @@ tflow2               | Netflow/Sflow analyzer | Go    | APL2
 traefik              | Modern reverse proxy   | Go    | MIT
 trim                 | remove prefix          | C     | MIT
 unbound_exporter     | Prometheus exporter    | Go    | APL2
+stylua               | lua fmt                | Rust  | MPL2
 swarp                | static http server     | Rust  | MIT
 yq                   | YAML processor ala jq  | Go    | MIT
 

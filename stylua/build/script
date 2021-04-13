@@ -1,0 +1,5 @@
+SRC="https://github.com/johnnymorganz/stylua"
+NAME="stylua"
+TAG="v0.6.0"
+_git_clone_tag
+_cargo_build
