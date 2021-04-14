@@ -1,0 +1,5 @@
+TAG="v0.10.0"
+SRC="https://github.com/kubernetes-sigs/kind/"
+NAME="kind"
+_git_clone_tag
+_go_build

@@ -32,8 +32,9 @@ gron                 | make JSON greppable    | Go    | MIT
 hi                   | light grep(1)          | C     | MIT
 hivemind             | Procfile supervisor    | Go    | MIT
 horust               | Process supervisor     | Rust  | MIT
-jql                  | Lispy JSON processor   | Go    | MIT 
+jql                  | Lispy JSON processor   | Go    | MIT
 kapow                | shell script to HTTP   | Go    | APL2
+kind                 | local Kubernetes       | Go    | APL2
 lefthook             | git hooks manager      | Go    | MIT
 ljredis              | FFI wrapper for crate  | Rust  | MIT
 lz4                  | Fast compression lib   | C     | BSD2
