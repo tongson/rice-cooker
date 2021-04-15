@@ -12,7 +12,7 @@ _go_build()
   local x="${1:-.}"
   __mark "go build ${bin}"
   GOOS=linux CGO_ENABLED=0 go build \
-    -trimpath -ldflags '-s -w' \
+    -trimpath -ldflags '-s -w -X=github.com/tongson/shaky-oven' \
     -o "${_TARGET}/${bin}.${tag}" "${x}"
 )
 
