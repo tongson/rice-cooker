@@ -1,0 +1,5 @@
+TAG="0.4.0"
+SRC="https://github.com/tongson/LadyLua"
+NAME="ll"
+_git_clone_tag
+_go_build
