@@ -25,6 +25,7 @@ esshd                | Ephemeral sshd         | Go    | MIT
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
 flowhouse            | Clickhouse/sflow       | Go    | APL2
+go-init              | PID 1 init             | Go    | MIT
 gopkgs               | list Go packages       | Go    | MIT
 gopls                | golang tools gopls     | Go    | BSD3
 gosec                | golang security lint   | Go    | APL2
