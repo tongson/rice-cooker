@@ -1,4 +1,4 @@
-SRC="https://github.com/DarthSim/hivemind"
+SRC="https://github.com/tongson/hivemind"
 NAME="hivemind"
 _git_clone
 _go_build
