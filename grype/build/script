@@ -1,0 +1,5 @@
+TAG="v0.11.0"
+SRC="https://github.com/anchore/grype"
+NAME="grype"
+_git_clone_tag
+_go_build
