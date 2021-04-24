@@ -1,4 +1,4 @@
-TAG="v0.3.9"
+TAG="v0.3.10"
 SRC="https://github.com/prologic/bitcask"
 NAME="bitcask"
 _git_clone_tag
