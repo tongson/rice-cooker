@@ -1,0 +1,4 @@
+SRC="https://github.com/tongson/LadyLua"
+NAME="ll"
+_git_clone
+_go_build
