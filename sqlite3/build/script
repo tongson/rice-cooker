@@ -1,6 +1,6 @@
-export SRC="https://www.sqlite.org/2021/sqlite-amalgamation-3350000.zip"
-export NAME="sqlite-amalgamation-3350000"
-export VERSION="3.35.0"
+export SRC="https://www.sqlite.org/2021/sqlite-amalgamation-3350500.zip"
+export NAME="sqlite-amalgamation-3350500"
+export VERSION="3.35.5"
 
 _get
 _unzip
