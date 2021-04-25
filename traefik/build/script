@@ -1,6 +1,6 @@
 SRC="https://github.com/traefik/traefik"
 NAME="traefik"
-TAG="v2.4.6"
+TAG="v2.4.8"
 _git_clone_tag
 _go_generate
 export GOGC=off
