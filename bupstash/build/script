@@ -1,0 +1,6 @@
+#NOTE: requires libsodium, e.g. libsodium23 libsodium-devel
+SRC="https://github.com/andrewchambers/bupstash"
+NAME="bupstash"
+TAG="v0.9.0"
+_git_clone_tag
+_cargo_build
