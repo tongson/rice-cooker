@@ -1,6 +1,6 @@
 _git_prelude()
 {
-  command -v git >&- || { printf "git command not found.\\n"; exit 1; }
+  command -v git >/dev/null || { printf "git command not found.\\n"; exit 1; }
 }
 
 _git_clone_tag()
