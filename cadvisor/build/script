@@ -1,0 +1,5 @@
+TAG="v0.37.5"
+SRC="https://github.com/google/cadvisor"
+NAME="cadvisor"
+_git_clone_tag
+_go_build_submodule cmd
