@@ -16,6 +16,20 @@ _go_build()
     -o "${_TARGET}/${bin}.${tag}" "${x}"
 )
 
+_go_build_submodule()
+(
+  _go_prelude
+  cd "${NAME}" || exit 1
+  cd "${1}" || exit 1
+  local tag="${TAG:-$(git rev-parse --short HEAD)}"
+  local bin="${3:-${NAME}}"
+  local x="${2:-.}"
+  __mark "go build ${bin}"
+  GOOS=linux CGO_ENABLED=0 go build \
+    -trimpath -ldflags '-s -w' \
+    -o "${_TARGET}/${bin}.${tag}" "${x}"
+)
+
 _go_generate()
 (
   _go_prelude
