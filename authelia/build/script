@@ -3,4 +3,4 @@ SRC="https://github.com/authelia/authelia"
 NAME="authelia"
 _git_clone_tag
 _chdir_build
-GOOS=linux GOARCH=amd64 CGO_ENABLED=1 go build -tags netgo -ldflags '-s -w -linkmode external' -trimpath -o "${_TARGET}/${NAME}.${TAG}" ./cmd/authelia
+GOOS=linux GOARCH=amd64 CGO_ENABLED=1 go build -ldflags '-s -w -linkmode external' -trimpath -o "${_TARGET}/${NAME}.${TAG}" ./cmd/authelia
