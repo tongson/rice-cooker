@@ -1,4 +1,4 @@
-TAG="v1.8.0"
+TAG="v1.8.3"
 SRC="https://github.com/coredns/coredns"
 NAME="coredns"
 _git_clone_tag
