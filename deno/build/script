@@ -1,0 +1,5 @@
+SRC="https://github.com/denoland/deno"
+NAME="deno"
+TAG="v1.9.2"
+_git_clone_tag
+_cargo_build
