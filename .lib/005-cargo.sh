@@ -5,7 +5,7 @@ _cargo_build()
   local tag="${TAG:-$(git rev-parse --short HEAD)}"
   local bin="${2:-${NAME}}"
   __mark "cargo build ${bin}"
-  cargo build --release
+  cargo build --release --locked
   strip -s "target/release/${NAME}"
   mv "target/release/${NAME}" "${_TARGET}/${bin}.${tag}"
 )
