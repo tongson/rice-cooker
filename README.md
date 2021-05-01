@@ -20,6 +20,7 @@ bupstash             | Encrypted backups      | Rust  | MIT
 cadvisor             | Container metrics      | Go    | APL2
 cloudquery           | Osquery for the cloud  | Go    | MPL2
 coredns              | DNS server/forwarder   | Go    | APL2
+deno                 | JS and TS runtime      | Rust  | MIT
 direnv               | shell environments     | Go    | MIT
 dlv                  | golang delve(debugger) | Go    | MIT
 dog                  | DNS cli like dig       | Rust  | EUPL
