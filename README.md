@@ -35,6 +35,7 @@ gosec                | golang security lint   | Go    | APL2
 gron                 | make JSON greppable    | Go    | MIT
 grype                | container vuln scanner | Go    | APL2
 hi                   | light grep(1)          | C     | MIT
+hilbish              | Lua Shell              | Go    | MIT
 hivemind             | Procfile supervisor    | Go    | MIT
 horust               | Process supervisor     | Rust  | MIT
 jql                  | Lispy JSON processor   | Go    | MIT
