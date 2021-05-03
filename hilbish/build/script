@@ -1,0 +1,5 @@
+TAG="v0.4.0"
+SRC="https://github.com/Hilbis/Hilbish"
+NAME="hilbish"
+_git_clone_tag
+_cgo_build
