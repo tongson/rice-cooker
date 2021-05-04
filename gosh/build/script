@@ -1,0 +1,6 @@
+TAG="v3.2.4"
+SRC="https://github.com/mvdan/sh"
+NAME="gosh"
+_git_clone_tag
+_go_build ./cmd/gosh gosh
+_go_build ./cmd/shfmt shmft
