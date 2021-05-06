@@ -39,6 +39,7 @@ hi                   | light grep(1)          | C     | MIT
 hilbish              | Lua Shell              | Go    | MIT
 hivemind             | Procfile supervisor    | Go    | MIT
 horust               | Process supervisor     | Rust  | MIT
+httpx                | HTTP toolkit           | Go    | MIT
 jql                  | Lispy JSON processor   | Go    | MIT
 kapow                | shell script to HTTP   | Go    | APL2
 kind                 | local Kubernetes       | Go    | APL2
