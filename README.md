@@ -51,6 +51,7 @@ ljredis              | FFI wrapper for crate  | Rust  | MIT
 lz4                  | Fast compression lib   | C     | BSD2
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
+micro                | Terminal-based editor  | Go    | MIT
 mtail                | Prometheus exporter    | Go    | APL2
 node_exporter        | Prometheus exporter    | Go    | APL2
 pexec                | fileless ELF execution | C     | MIT
