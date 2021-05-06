@@ -1,0 +1,5 @@
+TAG="v12.8.4"
+SRC="https://github.com/tsenart/vegeta"
+NAME="vegeta"
+_git_clone_tag
+_go_build
