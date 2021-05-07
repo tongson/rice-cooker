@@ -24,6 +24,7 @@ deno                 | JS and TS runtime      | Rust  | MIT
 direnv               | shell environments     | Go    | MIT
 dlv                  | golang delve(debugger) | Go    | MIT
 dog                  | DNS cli like dig       | Rust  | EUPL
+elvish               | Expressive Shell       | Go    | BSD2
 esshd                | Ephemeral sshd         | Go    | MIT
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
