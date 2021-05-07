@@ -1,0 +1,5 @@
+TAG="v0.15.0"
+SRC="https://github.com/elves/elvish"
+NAME="elvish"
+_git_clone_tag
+_go_build
