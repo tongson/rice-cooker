@@ -65,6 +65,7 @@ redisjson            | JSON type for Redis    | Rust  | RSAL
 refmt                | json, yaml, toml       | Rust  | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
+saw                  | AWS CloudWatch tool    | Go    | MIT
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT
 staticcheck          | Go linter              | Go    | MIT
 sops                 | simple secrets manager | Go    | MPL2
