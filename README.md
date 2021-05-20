@@ -59,6 +59,7 @@ node_exporter        | Prometheus exporter    | Go    | APL2
 pexec                | fileless ELF execution | C     | MIT
 procs                | ps replacement         | Rust  | MIT
 prometheus           | metrics                | Go    | APL2
+prom-aggr...-gw...   | Aggregating push gw    | Go    | LGPL3
 qgrep                | fast indexed grep(1)   | C++   | MIT
 redwood              | HTTP proxy             | Go    | BSD2
 redisjson            | JSON type for Redis    | Rust  | RSAL
