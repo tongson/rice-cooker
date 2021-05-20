@@ -1,0 +1,6 @@
+SRC="https://github.com/weaveworks/prom-aggregation-gateway"
+NAME="prom-aggregation-gateway"
+_git_clone
+go mod init prom-aggregation-gateway
+go mod tidy
+_go_build ./cmd/prom-aggregation-gateway
