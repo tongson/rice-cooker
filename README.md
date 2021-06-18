@@ -73,6 +73,7 @@ sops                 | simple secrets manager | Go    | MPL2
 sqlite3              | No description needed  | C     | PD
 terraform            | Premier IaaC tool      | Go    | MPL2
 tflow2               | Netflow/Sflow analyzer | Go    | APL2
+topfew               | sort uniq head alt.    | Go    | GPL3
 traefik              | Modern reverse proxy   | Go    | MIT
 trim                 | remove prefix          | C     | MIT
 unbound_exporter     | Prometheus exporter    | Go    | APL2
