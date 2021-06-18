@@ -1,0 +1,5 @@
+TAG="0.9.0"
+SRC="https://github.com/timbray/topfew"
+NAME="tf"
+_git_clone_tag
+_go_build
