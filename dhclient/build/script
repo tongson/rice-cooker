@@ -1,0 +1,4 @@
+SRC="https://github.com/tongson/dhclient"
+NAME="dhclient"
+_git_clone
+_go_build
