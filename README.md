@@ -58,6 +58,7 @@ map                  | map from STDIN         | C     | MIT
 micro                | Terminal-based editor  | Go    | MIT
 mtail                | Prometheus exporter    | Go    | APL2
 node_exporter        | Prometheus exporter    | Go    | APL2
+oha                  | TUI HTTP load gen      | Rust  | MIT
 pexec                | fileless ELF execution | C     | MIT
 procs                | ps replacement         | Rust  | MIT
 prometheus           | metrics                | Go    | APL2
