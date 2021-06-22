@@ -1,0 +1,5 @@
+SRC="https://github.com/hatoo/oha"
+NAME="oha"
+TAG="v0.4.5"
+_git_clone_tag
+_cargo_build
