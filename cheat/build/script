@@ -1,0 +1,5 @@
+TAG="4.2.2"
+SRC="https://github.com/cheat/cheat"
+NAME="cheat"
+_git_clone_tag
+_go_build ./cmd/cheat
