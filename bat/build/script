@@ -1,0 +1,5 @@
+SRC="https://github.com/sharkdp/bat"
+TAG="v0.18.1"
+NAME="bat"
+_git_clone_tag
+_cargo_build
