@@ -13,6 +13,7 @@ age                  | Modern encryption tool | Go    | BSD3
 alertmanager         | Prometheus alerts      | Go    | APL2
 authelia             | SSO                    | Go    | APL2
 awsls                | list AWS resources     | Go    | MIT
+bat                  | cat(1) clone           | Rust  | APL2
 bitcask              | Key/Value store        | Go    | MIT
 blacbox_exporter     | Prometheus exporter    | Go    | APL2
 blake3               | FFI wrapper            | Rust  | MIT
