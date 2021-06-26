@@ -1,0 +1,4 @@
+SRC="https://github.com/jmhodges/grab"
+NAME="grab"
+_git_clone
+_go_build
