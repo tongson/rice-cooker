@@ -37,6 +37,7 @@ gopkgs               | list Go packages       | Go    | MIT
 gopls                | golang tools gopls     | Go    | BSD3
 gosec                | golang security lint   | Go    | APL2
 gosh                 | sh and shfmt           | Go    | BSD3
+grab                 | grab VCS sources       | Go    | APL2
 gron                 | make JSON greppable    | Go    | MIT
 grype                | container vuln scanner | Go    | APL2
 hi                   | light grep(1)          | C     | MIT
