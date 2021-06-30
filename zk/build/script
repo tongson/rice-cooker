@@ -1,0 +1,4 @@
+SRC="https://github.com/floren/zk"
+NAME="zk"
+_git_clone
+_go_build
