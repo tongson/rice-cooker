@@ -1,5 +1,5 @@
 SRC="https://github.com/Kampfkarren/selene"
 NAME="selene"
-TAG="0.12.1"
+TAG="0.13.0"
 _git_clone_tag
 _cargo_build
