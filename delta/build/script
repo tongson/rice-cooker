@@ -1,0 +1,5 @@
+SRC="https://github.com/dandavison/delta"
+TAG="0.8.2"
+NAME="delta"
+_git_clone_tag
+_cargo_build
