@@ -1,0 +1,5 @@
+SRC="https://github.com/sstadick/hck"
+TAG="v0.4.2"
+NAME="hck"
+_git_clone_tag
+_cargo_build
