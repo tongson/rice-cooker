@@ -1,0 +1,5 @@
+SRC="https://github.com/neosmart/rewrite"
+TAG="1.0"
+NAME="rewrite"
+_git_clone_tag
+_cargo_build
