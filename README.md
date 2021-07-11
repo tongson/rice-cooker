@@ -40,6 +40,7 @@ gosh                 | sh and shfmt           | Go    | BSD3
 grab                 | grab VCS sources       | Go    | APL2
 gron                 | make JSON greppable    | Go    | MIT
 grype                | container vuln scanner | Go    | APL2
+hck                  | cut(1) alternative     | Rust  | Unlicense
 hi                   | light grep(1)          | C     | MIT
 hilbish              | Lua Shell              | Go    | MIT
 hivemind             | Procfile supervisor    | Go    | MIT
