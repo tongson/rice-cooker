@@ -22,6 +22,7 @@ cadvisor             | Container metrics      | Go    | APL2
 cheat                | CLI cheats             | Go    | MIT
 cloudquery           | Osquery for the cloud  | Go    | MPL2
 coredns              | DNS server/forwarder   | Go    | APL2
+delta                | Advanced diff          | Rust  | MIT
 deno                 | JS and TS runtime      | Rust  | MIT
 dhclient             | bare bones DHCP client | Go    | BSD3
 direnv               | shell environments     | Go    | MIT
