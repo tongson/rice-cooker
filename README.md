@@ -71,6 +71,7 @@ qgrep                | fast indexed grep(1)   | C++   | MIT
 redwood              | HTTP proxy             | Go    | BSD2
 redisjson            | JSON type for Redis    | Rust  | RSAL
 refmt                | json, yaml, toml       | Rust  | MIT
+rewrite              | sponge(1) in Rust      | Rust  | MIT
 rg                   | ripgrep                | Rust  | MIT
 rr                   | shell script over SSH  | Go    | MIT
 saw                  | AWS CloudWatch tool    | Go    | MIT
