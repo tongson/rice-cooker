@@ -4,6 +4,7 @@ BYOB(Build your own binaries) <br/>
 Brings me back to my Gentoo & Source Mage days. <br/>
 
 WARNING: Some of the recipes may build from the main/master/default branch. Do your own tests.
+REQUIRES: [rr](https://github.com/tongson/rr)
 
 Default installation directory is `$HOME/bin`.
 
