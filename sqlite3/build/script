@@ -1,7 +1,7 @@
 NAME="sqlite3"
-TAG="version-3.35.5"
+TAG="version-3.36.0"
 SRC="https://github.com/sqlite/sqlite"
-VERSION="3.35.5"
+VERSION="3.36.0"
 _git_clone_tag
 _chdir_build
 
