@@ -1,6 +1,6 @@
 _go_prelude()
 {
-  command -v go >/dev/null || { printf "go command not found.\\n"; exit 1; }
+  command -v go >/dev/null || { printf 1>&2 "go command not found.\\n"; exit 1; }
 }
 
 _go_build()

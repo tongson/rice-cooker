@@ -1,6 +1,6 @@
 _cargo_build()
 (
-  command -v cargo >/dev/null || { printf "cargo command not found.\\n"; exit 1; }
+  command -v cargo >/dev/null || { printf 1>&2 "cargo command not found.\\n"; exit 1; }
   cd "${NAME}" || exit
   local tag="${TAG:-$(git rev-parse --short HEAD)}"
   local bin="${2:-${NAME}}"

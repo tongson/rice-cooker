@@ -1,11 +1,11 @@
 _cc_prelude()
 {
-  command -v cc >/dev/null || { printf "cc (C compiler) not found.\\n"; exit 1; }
+  command -v cc >/dev/null || { printf 1>&2 "cc (C compiler) not found.\\n"; exit 1; }
 }
 
 _make_prelude()
 {
-  command -v make >/dev/null || { printf "make command not found.\\n"; exit 1; }
+  command -v make >/dev/null || { printf 1>&2 "make command not found.\\n"; exit 1; }
 }
 
 _cc()
