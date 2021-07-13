@@ -10,7 +10,7 @@ _trap()
   then
     printf "\nCleaning up.\n"
   else
-    printf 1>&2 "\nSomething when wrong.\n"
+    printf 1>&2 "\nSomething when wrong: %s\n" "${FUNCNAME[1]}"
   fi
   rm -rf "${_WORK}"
   trap - EXIT
