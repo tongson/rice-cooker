@@ -5,6 +5,7 @@ mkdir -p "${_SRC}"
 _WORK=$(mktemp -d)
 _trap()
 {
+  rm -rf "${_WORK}"
   local exit_status=${1:-$?}
   if [ $exit_status = 0 ]
   then
@@ -16,7 +17,6 @@ _trap()
     # The FUNCNAME throws a bad substition error on BushBox sh and dash
     printf 1>&2 "\nSomething when wrong: %s\n" "${FUNCNAME[1]}"
   fi
-  rm -rf "${_WORK}"
   trap - EXIT
   exit
 }
