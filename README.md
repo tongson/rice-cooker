@@ -19,6 +19,7 @@ blacbox_exporter     | Prometheus exporter    | Go    | APL2
 blake3               | FFI wrapper            | Rust  | MIT
 bupstash             | Encrypted backups      | Rust  | MIT
 cadvisor             | Container metrics      | Go    | APL2
+cashier              | OpenSSH CA             | Go    | MIT
 cheat                | CLI cheats             | Go    | MIT
 cloudquery           | Osquery for the cloud  | Go    | MPL2
 coredns              | DNS server/forwarder   | Go    | APL2
