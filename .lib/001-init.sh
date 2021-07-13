@@ -6,7 +6,7 @@ _WORK=$(mktemp -d)
 _trap()
 {
   rm -rf "${_WORK}"
-  printf "Something went wrong or we were interrupted.\n"
+  printf 1>&2 "\nSomething went wrong or we were interrupted.\n"
   trap - EXIT
   exit
 }
