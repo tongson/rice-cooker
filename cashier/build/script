@@ -1,0 +1,5 @@
+SRC="https://github.com/nsheridan/cashier"
+NAME="cashier"
+_git_clone
+_go_build ./cmd/cashierd cashierd
+_go_build ./cmd/cashier cashier
