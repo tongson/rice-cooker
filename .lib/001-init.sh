@@ -10,6 +10,7 @@ _trap()
   then
     printf "\nCleaning up.\n"
   else
+    # The FUNCNAME throws a bad substition error on BushBox sh and dash
     printf 1>&2 "\nSomething when wrong: %s\n" "${FUNCNAME[1]}"
   fi
   rm -rf "${_WORK}"
