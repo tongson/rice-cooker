@@ -5,8 +5,8 @@ mkdir -p "${_SRC}"
 _WORK=$(mktemp -d)
 _trap()
 {
-  rm -rf "${_WORK}"
   local exit_status=${1:-$?}
+  rm -rf "${_WORK}"
   if [ $exit_status = 0 ]
   then
     printf "\nCleaning up.\n"
