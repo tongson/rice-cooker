@@ -17,8 +17,12 @@ _trap()
     set +u
     # The FUNCNAME throws a bad substition error on BushBox sh and dash
     test -z ${BASH} &&
-    { printf 1>&2 "Something went wrong."; } ||
-    { printf 1>&2 "Something went wrong: %s" "${FUNCNAME[1]}"; }
+    {
+      printf 1>&2 "Something went wrong.";
+    } ||
+    {
+      printf 1>&2 "Something went wrong: %s" "${FUNCNAME[1]}";
+    }
     printf 1>&2 "\n"
   fi
   trap - EXIT
