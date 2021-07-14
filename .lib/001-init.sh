@@ -7,17 +7,18 @@ _trap()
   # Assigning the exit code MUST be the first line here
   local exit_status=${1:-$?}
   rm -rf "${_WORK}"
+  printf "\n"
   if [ $exit_status = 0 ]
   then
-    printf "\nCleaning up.\n"
+    printf "Cleaning up."
   else
-    printf "\n"
     set +u
     test -z ${BASH} &&
-    printf 1>&2 "Something went wrong.\n" ||
+    printf 1>&2 "Something went wrong." ||
     # The FUNCNAME throws a bad substition error on BushBox sh and dash
-    printf 1>&2 "Something went wrong: %s\n" "${FUNCNAME[1]}"
+    printf 1>&2 "Something went wrong: %s" "${FUNCNAME[1]}"
   fi
+  printf "\n"
   trap - EXIT
   exit
 }
