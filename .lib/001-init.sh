@@ -5,6 +5,7 @@ mkdir -p "${_SRC}"
 _WORK=$(mktemp -d)
 _trap()
 {
+  # Assigning the exit code MUST be the first line here
   local exit_status=${1:-$?}
   rm -rf "${_WORK}"
   if [ $exit_status = 0 ]
