@@ -9,24 +9,20 @@ _trap()
   rm -rf "${_WORK}"
   if [ $exit_status = 0 ]
   then
-    printf "\n"
-    printf "Cleaning up."
-    printf "\n"
+    __mark "Cleaning up."
   else
-    printf 1>&2 "\n"
     set +u
     # The FUNCNAME throws a bad substition error on BushBox sh and dash
     if test -z ${BASH}
     then
       {
-        printf 1>&2 "Something went wrong.";
+        __mark "Something went wrong.";
       }
     else
       {
-        printf 1>&2 "Something went wrong: %s" "${FUNCNAME[1]}";
+        __mark "Something went wrong: ${FUNCNAME[1]}";
       }
     fi
-    printf 1>&2 "\n"
   fi
   trap - EXIT
   exit
