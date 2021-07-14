@@ -1,0 +1,5 @@
+SRC="https://github.com/nushell/nushell"
+TAG="0.34.0"
+NAME="nu"
+_git_clone_tag
+_cargo_build --features 'default tree query-json sqlite table-pager'
