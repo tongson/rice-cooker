@@ -1,8 +1,3 @@
-_TARGET="${HOME}/bin"
-mkdir -p "${_TARGET}"
-_SRC="${HOME}/src"
-mkdir -p "${_SRC}"
-_WORK=$(mktemp -d)
 _chdir_build()
 {
   cd "${NAME}" || exit 1
@@ -26,4 +21,10 @@ _trap()
   exit
 }
 trap _trap EXIT INT HUP
+
+_TARGET="${HOME}/bin"
+mkdir -p "${_TARGET}"
+_SRC="${HOME}/src"
+mkdir -p "${_SRC}"
+_WORK=$(mktemp -d)
 cd "${_WORK}" || exit 1
