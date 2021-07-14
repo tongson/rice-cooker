@@ -3,6 +3,10 @@ mkdir -p "${_TARGET}"
 _SRC="${HOME}/src"
 mkdir -p "${_SRC}"
 _WORK=$(mktemp -d)
+_chdir_build()
+{
+  cd "${NAME}" || exit 1
+}
 _trap()
 {
   # Assigning the exit code MUST be the first line here
@@ -23,7 +27,3 @@ _trap()
 }
 trap _trap EXIT INT HUP
 cd "${_WORK}" || exit 1
-_chdir_build()
-{
-  cd "${NAME}" || exit 1
-}
