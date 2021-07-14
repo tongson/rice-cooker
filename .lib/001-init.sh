@@ -9,7 +9,7 @@ _trap()
   rm -rf "${_WORK}"
   if [ $exit_status = 0 ]
   then
-    __mark "Cleaning up."
+    __mark "Cleaned up."
   else
     set +u
     # The FUNCNAME throws a bad substition error on BushBox sh and dash
