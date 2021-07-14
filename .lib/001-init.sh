@@ -11,11 +11,12 @@ _trap()
   then
     printf "\nCleaning up.\n"
   else
+    printf "\n"
     set +u
     test -z ${BASH} &&
-    printf 1>&2 "\nSomething went wrong.\n" ||
+    printf 1>&2 "Something went wrong.\n" ||
     # The FUNCNAME throws a bad substition error on BushBox sh and dash
-    printf 1>&2 "\nSomething went wrong: %s\n" "${FUNCNAME[1]}"
+    printf 1>&2 "Something went wrong: %s\n" "${FUNCNAME[1]}"
   fi
   trap - EXIT
   exit
