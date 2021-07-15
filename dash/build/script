@@ -8,4 +8,4 @@ _chdir_build
 ./configure --without-libedit
 make LDFLAGS="-static"
 strip -s "src/${NAME}"
-mv "src/${NAME}" "${_TARGET}/${NAME}.$(_git_head)"
+mv "src/${NAME}" "${_TARGET}/${NAME}.${TAG}"
