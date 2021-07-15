@@ -6,6 +6,5 @@ _chdir_build
 
 ./autogen.sh
 ./configure --without-libedit
-make LDFLAGS="-static"
-strip -s "src/${NAME}"
+make CFLAGS="-DNDEBUG -Os msse4.2 -pipe -fomit-frame-pointer -ffunction-sections -fdata-sections" LDFLAGS="-static,-Wl,--as-needed,--gc-sections,--strip-all"
 mv "src/${NAME}" "${_TARGET}/${NAME}.${TAG}"
