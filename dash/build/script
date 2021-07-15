@@ -5,6 +5,6 @@ _git_clone_tag
 _chdir_build
 
 ./autogen.sh
-./configure --without-libedit
-make CFLAGS="-DNDEBUG -Os msse4.2 -pipe -fomit-frame-pointer -ffunction-sections -fdata-sections" LDFLAGS="-static,-Wl,--as-needed,--gc-sections,--strip-all"
+./configure --without-libedit --enable-static
+make CFLAGS="-DNDEBUG -Os -pipe -fomit-frame-pointer -ffunction-sections -fdata-sections" LDFLAGS="-static -Wl,--as-needed,--gc-sections,--strip-all"
 mv "src/${NAME}" "${_TARGET}/${NAME}.${TAG}"
