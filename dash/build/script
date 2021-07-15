@@ -1,0 +1,9 @@
+NAME="dash"
+SRC="https://git.kernel.org/pub/scm/utils/dash/dash.git"
+_git_clone
+_chdir_build
+
+./configure --without-libedit
+make LDFLAGS="-static"
+strip -s "src/${NAME}"
+mv "src/${NAME}" "${_TARGET}/${NAME}.$(_git_head)"
