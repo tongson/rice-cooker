@@ -3,7 +3,7 @@ SRC="https://github.com/emersion/mrsh"
 _git_clone
 _chdir_build
 
-./configure --static="-static -static-pie" --without-readline
-make
+./configure --without-readline
+make LDFLAGS="-static" mrsh
 strip -s mrsh
 mv mrsh "${_TARGET}/mrsh.$(_git_head)"
