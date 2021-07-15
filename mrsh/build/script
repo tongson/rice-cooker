@@ -5,4 +5,5 @@ _chdir_build
 
 ./configure --static="-static -static-pie" --without-readline
 make
+strip -s mrsh
 mv mrsh "${_TARGET}/mrsh.$(_git_head)"
