@@ -1,6 +1,7 @@
 NAME="dash"
+TAG="0.5.11"
 SRC="https://git.kernel.org/pub/scm/utils/dash/dash.git"
-_git_clone
+_git_clone_tag
 _chdir_build
 
 ./configure --without-libedit
