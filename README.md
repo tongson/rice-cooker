@@ -24,6 +24,7 @@ cashier              | OpenSSH CA             | Go    | MIT
 cheat                | CLI cheats             | Go    | MIT
 cloudquery           | Osquery for the cloud  | Go    | MPL2
 coredns              | DNS server/forwarder   | Go    | APL2
+dash                 | Posix shell            | C     | BSD3
 delta                | Advanced diff          | Rust  | MIT
 deno                 | JS and TS runtime      | Rust  | MIT
 dhclient             | bare bones DHCP client | Go    | BSD3
