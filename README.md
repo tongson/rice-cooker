@@ -73,6 +73,7 @@ pexec                | fileless ELF execution | C     | MIT
 procs                | ps replacement         | Rust  | MIT
 prometheus           | metrics                | Go    | APL2
 prom-aggr...-gw...   | Aggregating push gw    | Go    | LGPL3
+pup                  | jq for HTML            | Go    | MIT
 qgrep                | fast indexed grep(1)   | C++   | MIT
 redwood              | HTTP proxy             | Go    | BSD2
 redisjson            | JSON type for Redis    | Rust  | RSAL
