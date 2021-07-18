@@ -1,0 +1,4 @@
+SRC="https://github.com/EricChiang/pup"
+NAME="pup"
+_git_clone
+_go_build
