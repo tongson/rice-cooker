@@ -1,0 +1,4 @@
+SRC="https://github.com/rcoh/angle-grinder"
+NAME="agrind"
+_git_clone
+_cargo_build
