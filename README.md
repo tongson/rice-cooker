@@ -12,6 +12,7 @@ Project              | What                   | In    | License
 ---------------------|------------------------|-------|---------
 age                  | Modern encryption tool | Go    | BSD3
 alertmanager         | Prometheus alerts      | Go    | APL2
+angle-grinder        | Log analysis           | Rust  | MIT
 authelia             | SSO                    | Go    | APL2
 awsls                | list AWS resources     | Go    | MIT
 bat                  | cat(1) clone           | Rust  | APL2
