@@ -1,0 +1,5 @@
+TAG="v1.4.1"
+SRC="https://github.com/charmbracelet/glow"
+NAME="glow"
+_git_clone_tag
+_go_build
