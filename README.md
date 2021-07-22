@@ -37,6 +37,7 @@ esshd                | Ephemeral sshd         | Go    | MIT
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
 flowhouse            | Clickhouse/sflow       | Go    | APL2
+fzf                  | CLI fuzzy finder       | Go    | MIT
 glow                 | markdown viewer        | Go    | MIT
 go-init              | PID 1 init             | Go    | MIT
 golines              | go code line splitter  | Go    | MIT
