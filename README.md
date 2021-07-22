@@ -54,6 +54,7 @@ hilbish              | Lua Shell              | Go    | MIT
 hivemind             | Procfile supervisor    | Go    | MIT
 horust               | Process supervisor     | Rust  | MIT
 httpx                | HTTP toolkit           | Go    | MIT
+hugo                 | Static site generator  | Go    | APL2
 hyperfine            | CLI benchmarks         | Rust  | APL2
 jql                  | Lispy JSON processor   | Go    | MIT
 kapow                | shell script to HTTP   | Go    | APL2
