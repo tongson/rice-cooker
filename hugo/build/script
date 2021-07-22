@@ -1,0 +1,5 @@
+TAG="v0.86.0"
+SRC="https://github.com/gohugoio/hugo"
+NAME="hugo"
+_git_clone_tag
+_cgo_build
