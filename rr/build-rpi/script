@@ -1,6 +1,6 @@
 SRC="https://github.com/tongson/rr"
 NAME="rr"
-TAG="0.6.0"
+TAG="0.10.0"
 _git_clone_tag
 _chdir_build
 GOARCH=arm64 GOOS=linux CGO_ENABLED=0 go build \
