@@ -1,0 +1,5 @@
+TAG="0.27.2"
+NAME="fzf"
+SRC="https://github.com/junegunn/fzf"
+_git_clone_tag
+_go_build
