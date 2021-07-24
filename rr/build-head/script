@@ -4,4 +4,4 @@ _git_clone
 _chdir_build
 GOARCH=386 GOOS=linux CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
-    -o "${_TARGET}/rr.head" "./cmd/rr"
+    -o "${_TARGET}/rr"
