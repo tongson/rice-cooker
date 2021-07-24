@@ -9,11 +9,13 @@ _go_build()
   cd "${NAME}" || exit 1
   local tag="${TAG:-$(git rev-parse --short HEAD)}"
   local bin="${2:-${NAME}}"
+  local exe="${bin}.${tag}"
   local x="${1:-.}"
   __mark "go build ${bin}"
   GOOS=linux CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
-    -o "${_TARGET}/${bin}.${tag}" "${x}"
+    -o "${_TARGET}/${exe}" "${x}"
+  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${bin}"
 )
 
 _go_build_macos()
@@ -35,11 +37,13 @@ _cgo_build()
   cd "${NAME}" || exit 1
   local tag="${TAG:-$(git rev-parse --short HEAD)}"
   local bin="${2:-${NAME}}"
+  local exe="${bin}.${tag}"
   local x="${1:-.}"
   __mark "go build ${bin}"
   GOOS=linux CGO_ENABLED=1 go build \
     -trimpath -ldflags '-s -w' \
-    -o "${_TARGET}/${bin}.${tag}" "${x}"
+    -o "${_TARGET}/${exe}" "${x}"
+  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${bin}"
 )
 
 _go_build_submodule()
