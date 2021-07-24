@@ -1,4 +1,4 @@
-TAG="v1.21.0"
+TAG="v1.21.3"
 SRC="https://github.com/kubernetes/kubernetes"
 NAME="kubelet"
 _git_clone_tag
