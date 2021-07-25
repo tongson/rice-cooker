@@ -34,6 +34,7 @@ dlv                  | golang delve(debugger) | Go    | MIT
 dog                  | DNS cli like dig       | Rust  | EUPL
 elvish               | Expressive Shell       | Go    | BSD2
 esshd                | Ephemeral sshd         | Go    | MIT
+evilnginx2           | Phisher                | Go    | GPL3
 exa                  | ls(1) replacement      | Rust  | MIT
 fd                   | findutils replacement  | Rust  | MIT
 flowhouse            | Clickhouse/sflow       | Go    | APL2
