@@ -15,7 +15,7 @@ _go_build()
   GOOS=linux CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
     -o "${_TARGET}/${exe}" "${x}"
-  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${bin}"
+  ln -sf "${_TARGET}/${exe}" "${bin}"
 )
 
 _go_build_macos()
@@ -43,7 +43,7 @@ _cgo_build()
   GOOS=linux CGO_ENABLED=1 go build \
     -trimpath -ldflags '-s -w' \
     -o "${_TARGET}/${exe}" "${x}"
-  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${bin}"
+  ln -sf "${_TARGET}/${exe}" "${bin}"
 )
 
 _go_build_submodule()
