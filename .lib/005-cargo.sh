@@ -8,5 +8,5 @@ _cargo_build()
   cargo build --release --locked "$@"
   strip -s "target/release/${NAME}"
   mv "target/release/${NAME}" "${_TARGET}/${exe}"
-  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${NAME}"
+  ln -sf "${_TARGET}/${exe}" "${exe}"
 )
