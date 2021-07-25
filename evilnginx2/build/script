@@ -1,0 +1,4 @@
+SRC="https://github.com/kgretzky/evilginx2"
+NAME="evilnginx"
+_git_clone
+_go_build
