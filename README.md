@@ -103,6 +103,7 @@ stylua               | lua fmt                | Rust  | MPL2
 swarp                | static http server     | Rust  | MIT
 vegeta               | HTTP load testing      | Go    | MIT
 yq                   | YAML processor ala jq  | Go    | MIT
+yubikey-agent        | SSH-agent for YubiKey  | Go    | BSD3
 zk                   | CLI notes              | Go    | BSD2
 
 
