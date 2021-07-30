@@ -1,0 +1,6 @@
+TAG="v0.1.5"
+SRC="https://github.com/FiloSottile/yubikey-agent"
+NAME="yubikey-agent"
+_git_clone_tag
+# requires pcsc-lite-devel or equivalent
+_cgo_build
