@@ -1,4 +1,4 @@
-TAG="0.9.0"
+TAG="0.10.0"
 SRC="https://github.com/tongson/LadyLua"
 NAME="ll"
 _git_clone_tag
