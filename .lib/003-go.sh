@@ -3,6 +3,24 @@ _go_prelude()
   command -v go >/dev/null || { printf 1>&2 "go command not found.\\n"; exit 1; }
 }
 
+_go_arch()
+{
+  local arch
+  arch="$(uname -m)"
+  if [ "${arch}" = "x86_64" ]
+  then
+    arch="amd64"
+  fi
+  printf "%s" "${arch}"
+}
+
+_go_os()
+{
+  local os
+  os=$(uname -s | tr '[:upper:]' '[:lower:]')
+  printf "%s" "${os}"
+}
+
 _go_build()
 (
   _go_prelude
@@ -12,7 +30,7 @@ _go_build()
   local exe="${bin}.${tag}"
   local x="${1:-.}"
   __mark "go build ${bin}"
-  GOOS=linux CGO_ENABLED=0 go build \
+  GOOS="$(_go_os)" GOARCH="$(_go_arch)" CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
     -o "${_TARGET}/${exe}" "${x}"
   ln -sf "${_TARGET}/${exe}" "${bin}"
@@ -40,7 +58,7 @@ _cgo_build()
   local exe="${bin}.${tag}"
   local x="${1:-.}"
   __mark "go build ${bin}"
-  GOOS=linux CGO_ENABLED=1 go build \
+  GOOS="$(_go_os)" GOARCH="$(_go_arch)" CGO_ENABLED=1 go build \
     -trimpath -ldflags '-s -w' \
     -o "${_TARGET}/${exe}" "${x}"
   ln -sf "${_TARGET}/${exe}" "${bin}"
