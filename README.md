@@ -51,6 +51,7 @@ grab                 | grab VCS sources       | Go    | APL2
 gron                 | make JSON greppable    | Go    | MIT
 grype                | container vuln scanner | Go    | APL2
 gws                  | Google Workspace CLI   | Go    | MIT
+havener              | kubectl wrapper        | Go    | MIT
 hck                  | cut(1) alternative     | Rust  | Unlicense
 hi                   | light grep(1)          | C     | MIT
 hilbish              | Lua Shell              | Go    | MIT
