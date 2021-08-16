@@ -69,6 +69,7 @@ kubelet              | kubelet                | Go    | APL2
 ladylua              | Lua 5.1 interpreter    | Go    | MIT
 lefthook             | git hooks manager      | Go    | MIT
 ljredis              | FFI wrapper for crate  | Rust  | MIT
+lucid                | mock child process     | Rust  | MIT
 lz4                  | Fast compression lib   | C     | BSD2
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
