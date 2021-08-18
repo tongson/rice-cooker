@@ -74,6 +74,7 @@ lz4                  | Fast compression lib   | C     | BSD2
 mailcat              | dummy SMTP server      | C     | MIT
 map                  | map from STDIN         | C     | MIT
 micro                | Terminal-based editor  | Go    | MIT
+minio                | S3 compatible server   | Go    | AGPL3
 mrsh                 | Real Posix shell       | C     | MIT
 mtail                | Prometheus exporter    | Go    | APL2
 node_exporter        | Prometheus exporter    | Go    | APL2
