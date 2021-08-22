@@ -43,6 +43,7 @@ flowhouse            | Clickhouse/sflow       | Go    | APL2
 fzf                  | CLI fuzzy finder       | Go    | MIT
 glow                 | markdown viewer        | Go    | MIT
 go-init              | PID 1 init             | Go    | MIT
+gokart               | golang security lint   | Go    | APL2
 golines              | go code line splitter  | Go    | MIT
 gopkgs               | list Go packages       | Go    | MIT
 gopls                | golang tools gopls     | Go    | BSD3
