@@ -1,0 +1,5 @@
+TAG="v0.1.1"
+SRC="https://github.com/praetorian-inc/gokart"
+NAME="gokart"
+_git_clone_tag
+_go_build
