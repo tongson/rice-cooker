@@ -1,0 +1,5 @@
+SRC="https://github.com/fpco/amber"
+NAME="amber"
+TAG="v0.1.0"
+_git_clone_tag
+_cargo_build
