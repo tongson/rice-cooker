@@ -110,6 +110,7 @@ swarp                | static http server     | Rust  | MIT
 vegeta               | HTTP load testing      | Go    | MIT
 yq                   | YAML processor ala jq  | Go    | MIT
 yubikey-agent        | SSH-agent for YubiKey  | Go    | BSD3
+xh                   | cURL httpie alt        | Rust  | MIT
 zk                   | CLI notes              | Go    | BSD2
 zoxide               | Smart cd               | Rust  | MIT
 
