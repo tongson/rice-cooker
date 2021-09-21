@@ -108,6 +108,7 @@ unbound_exporter     | Prometheus exporter    | Go    | APL2
 stylua               | lua fmt                | Rust  | MPL2
 swarp                | static http server     | Rust  | MIT
 syft                 | BOM generator          | Go    | APL2
+terrascan            | Vuln scanner           | Go    | APL2
 trivy                | Vuln scanner           | Go    | APL2
 vegeta               | HTTP load testing      | Go    | MIT
 yq                   | YAML processor ala jq  | Go    | MIT
