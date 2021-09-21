@@ -1,0 +1,5 @@
+TAG="v1.10.0"
+SRC="https://github.com/accurics/terrascan"
+NAME="terrascan"
+_git_clone_tag
+_go_build ./cmd/terrascan
