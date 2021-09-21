@@ -1,0 +1,5 @@
+TAG="v0.19.2"
+SRC="https://github.com/aquasecurity/trivy"
+NAME="trivy"
+_git_clone_tag
+_go_build ./cmd/trivy
