@@ -1,0 +1,5 @@
+TAG="v2.4.5"
+SRC="https://github.com/caddyserver/caddy"
+NAME="caddy"
+_git_clone_tag
+_go_build
