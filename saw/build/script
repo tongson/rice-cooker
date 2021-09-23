@@ -1,4 +1,4 @@
 SRC="https://github.com/TylerBrock/saw"
 NAME="saw"
 _git_clone
-_go_build
+_go_tidy_build
