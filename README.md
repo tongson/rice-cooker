@@ -8,26 +8,26 @@ REQUIRES: [rr](https://github.com/tongson/rr)
 
 Default installation directory is `$HOME/bin`.
 
-Project              | What                   | In    | License
----------------------|------------------------|-------|---------
-age                  | Modern encryption tool | Go    | BSD3
-alertmanager         | Prometheus alerts      | Go    | APL2
-amber                | Simple secrets         | Rust  | MIT
-angle-grinder        | Log analysis           | Rust  | MIT
-authelia             | SSO                    | Go    | APL2
-awsls                | list AWS resources     | Go    | MIT
-bat                  | cat(1) clone           | Rust  | APL2
-bitcask              | Key/Value store        | Go    | MIT
-blacbox_exporter     | Prometheus exporter    | Go    | APL2
-blake3               | FFI wrapper            | Rust  | MIT
-bupstash             | Encrypted backups      | Rust  | MIT
-cadvisor             | Container metrics      | Go    | APL2
-cashier              | OpenSSH CA             | Go    | MIT
-cheat                | CLI cheats             | Go    | MIT
-cloudquery           | Osquery for the cloud  | Go    | MPL2
-coredns              | DNS server/forwarder   | Go    | APL2
-dasel                | JSON, YAML, TOML tool  | Go    | MIT
-dash                 | Posix shell            | C     | BSD3
+Project              | What                   | In    | License | Tags
+---------------------|------------------------|-------|---------|-----------------------------------------------
+age                  | Modern encryption tool | Go    | BSD3    | `security` `cryptography` `secrets`
+alertmanager         | Prometheus alerts      | Go    | APL2    | `ops` `prom`
+amber                | Simple secrets         | Rust  | MIT     | `security` `secrets`
+angle-grinder        | Log analysis           | Rust  | MIT     | `logs`
+authelia             | SSO                    | Go    | APL2    | `web` `sso`
+awsls                | list AWS resources     | Go    | MIT     | `ops` `aws` `cloud`
+bat                  | cat(1) clone           | Rust  | APL2    | `coreutils`
+bitcask              | Key/Value store        | Go    | MIT     | `database`
+blacbox_exporter     | Prometheus exporter    | Go    | APL2    | `ops` `prom`
+blake3               | FFI wrapper            | Rust  | MIT     | `ffi`
+bupstash             | Encrypted backups      | Rust  | MIT     | `backup`
+cadvisor             | Container metrics      | Go    | APL2    | `container` `ops`
+cashier              | OpenSSH CA             | Go    | MIT     | `ssh`
+cheat                | CLI cheats             | Go    | MIT     | `docs`
+cloudquery           | Osquery for the cloud  | Go    | MPL2    | `ops` `aws` `cloud`
+coredns              | DNS server/forwarder   | Go    | APL2    | `dns`
+dasel                | JSON, YAML, TOML tool  | Go    | MIT     | `json` `yaml` `toml`
+dash                 | Posix shell            | C     | BSD3    | `shell`
 delta                | Advanced diff          | Rust  | MIT
 deno                 | JS and TS runtime      | Rust  | MIT
 dhclient             | bare bones DHCP client | Go    | BSD3
