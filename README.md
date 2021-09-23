@@ -21,6 +21,7 @@ bitcask              | Key/Value store        | Go    | MIT       | `database`
 blacbox_exporter     | Prometheus exporter    | Go    | APL2      | `ops` `prom`
 blake3               | FFI wrapper            | Rust  | MIT       | `ffi`
 bupstash             | Encrypted backups      | Rust  | MIT       | `backup`
+caddy                | Easy HTTP server       | Go    | APL2      | `http` `net`
 cadvisor             | Container metrics      | Go    | APL2      | `container` `ops`
 cashier              | OpenSSH CA             | Go    | MIT       | `ssh`
 cheat                | CLI cheats             | Go    | MIT       | `docs`
