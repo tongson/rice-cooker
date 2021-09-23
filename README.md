@@ -81,40 +81,40 @@ mrsh                 | Real Posix shell       | C     | MIT       | `shell`
 mtail                | Prometheus exporter    | Go    | APL2      | `logs` `prom`
 node_exporter        | Prometheus exporter    | Go    | APL2      | `prom`
 nushell              | Modern shell           | Rust  | MIT       | `shell`
-oha                  | TUI HTTP load gen      | Rust  | MIT
-pexec                | fileless ELF execution | C     | MIT
-procs                | ps replacement         | Rust  | MIT
-prometheus           | metrics                | Go    | APL2
-prom-aggr...-gw...   | Aggregating push gw    | Go    | LGPL3
-pup                  | jq for HTML            | Go    | MIT
-qgrep                | fast indexed grep(1)   | C++   | MIT
-redwood              | HTTP proxy             | Go    | BSD2
-redisjson            | JSON type for Redis    | Rust  | RSAL
-refmt                | json, yaml, toml       | Rust  | MIT
-rewrite              | sponge(1) in Rust      | Rust  | MIT
-rg                   | ripgrep                | Rust  | MIT
-rr                   | shell script over SSH  | Go    | MIT
-saw                  | AWS CloudWatch tool    | Go    | MIT
-smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT
-staticcheck          | Go linter              | Go    | MIT
-sops                 | simple secrets manager | Go    | MPL2
-sqlite3              | No description needed  | C     | PD
-terraform            | Premier IaaC tool      | Go    | MPL2
-tflow2               | Netflow/Sflow analyzer | Go    | APL2
-topfew               | sort uniq head alt.    | Go    | GPL3
-traefik              | Modern reverse proxy   | Go    | MIT
-trim                 | remove prefix          | C     | MIT
-unbound_exporter     | Prometheus exporter    | Go    | APL2
-stylua               | lua fmt                | Rust  | MPL2
-swarp                | static http server     | Rust  | MIT
-syft                 | BOM generator          | Go    | APL2
-terrascan            | Vuln scanner           | Go    | APL2
-trivy                | Vuln scanner           | Go    | APL2
-vegeta               | HTTP load testing      | Go    | MIT
-yq                   | YAML processor ala jq  | Go    | MIT
-yubikey-agent        | SSH-agent for YubiKey  | Go    | BSD3
-xh                   | cURL httpie alt        | Rust  | MIT
-zk                   | CLI notes              | Go    | BSD2
-zoxide               | Smart cd               | Rust  | MIT
+oha                  | TUI HTTP load gen      | Rust  | MIT       | `http` `benchmark`
+pexec                | fileless ELF execution | C     | MIT       | `shell`
+procs                | ps replacement         | Rust  | MIT       | `coreutils`
+prometheus           | metrics                | Go    | APL2      | `prom`
+prom-aggr...-gw...   | Aggregating push gw    | Go    | LGPL3     | `prom`
+pup                  | jq for HTML            | Go    | MIT       | `html`
+qgrep                | fast indexed grep(1)   | C++   | MIT       | `coreutils`
+redwood              | HTTP proxy             | Go    | BSD2      | `http` `net`
+redisjson            | JSON type for Redis    | Rust  | RSAL      | `json` `redis`
+refmt                | json, yaml, toml       | Rust  | MIT       | `json` `yaml` `toml`
+rewrite              | sponge(1) in Rust      | Rust  | MIT       | `coreutils`
+rg                   | ripgrep                | Rust  | MIT       | `coreutils`
+rr                   | shell script over SSH  | Go    | MIT       | `shell` `ops`
+saw                  | AWS CloudWatch tool    | Go    | MIT       | `aws` `ops`
+smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT       | `smtp` `telegram` `alerts`
+staticcheck          | Go linter              | Go    | MIT       | `lint`
+sops                 | simple secrets manager | Go    | MPL2      | `security` `secrets` `ops`
+sqlite3              | No description needed  | C     | PD        | `database`
+terraform            | Premier IaaC tool      | Go    | MPL2      | `ops` `cloud`
+tflow2               | Netflow/Sflow analyzer | Go    | APL2      | `net` `logs`
+topfew               | sort uniq head alt.    | Go    | GPL3      | `coreutils`
+traefik              | Modern reverse proxy   | Go    | MIT       | `http` `net`
+trim                 | remove prefix          | C     | MIT       | `coreutils`
+unbound_exporter     | Prometheus exporter    | Go    | APL2      | `prom` `net`
+stylua               | lua fmt                | Rust  | MPL2      | `lint` `lua`
+swarp                | static http server     | Rust  | MIT       | `http` `net`
+syft                 | BOM generator          | Go    | APL2      | `ops` `dev`
+terrascan            | Vuln scanner           | Go    | APL2      | `cloud` `scanner` `security`
+trivy                | Vuln scanner           | Go    | APL2      | `cloud` `scanner` `security`
+vegeta               | HTTP load testing      | Go    | MIT       | `benchmark` `http`
+yq                   | YAML processor ala jq  | Go    | MIT       | `yaml`
+yubikey-agent        | SSH-agent for YubiKey  | Go    | BSD3      | `ssh`
+xh                   | cURL httpie alt        | Rust  | MIT       | `http`
+zk                   | CLI notes              | Go    | BSD2      | `shell`
+zoxide               | Smart cd               | Rust  | MIT       | `coreutils`
 
 
