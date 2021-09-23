@@ -8,79 +8,79 @@ REQUIRES: [rr](https://github.com/tongson/rr)
 
 Default installation directory is `$HOME/bin`.
 
-Project              | What                   | In    | License | Tags
----------------------|------------------------|-------|---------|-----------------------------------------------
-age                  | Modern encryption tool | Go    | BSD3    | `security` `cryptography` `secrets`
-alertmanager         | Prometheus alerts      | Go    | APL2    | `ops` `prom`
-amber                | Simple secrets         | Rust  | MIT     | `security` `secrets`
-angle-grinder        | Log analysis           | Rust  | MIT     | `logs`
-authelia             | SSO                    | Go    | APL2    | `web` `sso`
-awsls                | list AWS resources     | Go    | MIT     | `ops` `aws` `cloud`
-bat                  | cat(1) clone           | Rust  | APL2    | `coreutils`
-bitcask              | Key/Value store        | Go    | MIT     | `database`
-blacbox_exporter     | Prometheus exporter    | Go    | APL2    | `ops` `prom`
-blake3               | FFI wrapper            | Rust  | MIT     | `ffi`
-bupstash             | Encrypted backups      | Rust  | MIT     | `backup`
-cadvisor             | Container metrics      | Go    | APL2    | `container` `ops`
-cashier              | OpenSSH CA             | Go    | MIT     | `ssh`
-cheat                | CLI cheats             | Go    | MIT     | `docs`
-cloudquery           | Osquery for the cloud  | Go    | MPL2    | `ops` `aws` `cloud`
-coredns              | DNS server/forwarder   | Go    | APL2    | `dns`
-dasel                | JSON, YAML, TOML tool  | Go    | MIT     | `json` `yaml` `toml`
-dash                 | Posix shell            | C     | BSD3    | `shell`
-delta                | Advanced diff          | Rust  | MIT
-deno                 | JS and TS runtime      | Rust  | MIT
-dhclient             | bare bones DHCP client | Go    | BSD3
-direnv               | shell environments     | Go    | MIT
-dlv                  | golang delve(debugger) | Go    | MIT
-dog                  | DNS cli like dig       | Rust  | EUPL
-elvish               | Expressive Shell       | Go    | BSD2
-esshd                | Ephemeral sshd         | Go    | MIT
-evilnginx2           | Phisher                | Go    | GPL3
-exa                  | ls(1) replacement      | Rust  | MIT
-fd                   | findutils replacement  | Rust  | MIT
-flowhouse            | Clickhouse/sflow       | Go    | APL2
-fzf                  | CLI fuzzy finder       | Go    | MIT
-glow                 | markdown viewer        | Go    | MIT
-go-init              | PID 1 init             | Go    | MIT
-gokart               | golang security lint   | Go    | APL2
-golines              | go code line splitter  | Go    | MIT
-gopkgs               | list Go packages       | Go    | MIT
-gopls                | golang tools gopls     | Go    | BSD3
-gosec                | golang security lint   | Go    | APL2
-gosh                 | sh and shfmt           | Go    | BSD3
-grab                 | grab VCS sources       | Go    | APL2
-gron                 | make JSON greppable    | Go    | MIT
-grype                | container vuln scanner | Go    | APL2
-gws                  | Google Workspace CLI   | Go    | MIT
-havener              | kubectl wrapper        | Go    | MIT
-hck                  | cut(1) alternative     | Rust  | Unlicense
-hi                   | light grep(1)          | C     | MIT
-hilbish              | Lua Shell              | Go    | MIT
-hivemind             | Procfile supervisor    | Go    | MIT
-horust               | Process supervisor     | Rust  | MIT
-httpx                | HTTP toolkit           | Go    | MIT
-hugo                 | Static site generator  | Go    | APL2
-hyperfine            | CLI benchmarks         | Rust  | APL2
-jql                  | Lispy JSON processor   | Go    | MIT
-kapow                | shell script to HTTP   | Go    | APL2
-kind                 | local Kubernetes       | Go    | APL2
-kubeadm              | kubeadm                | Go    | APL2
-kubectl              | kubectl                | Go    | APL2
-kubelet              | kubelet                | Go    | APL2
-ladylua              | Lua 5.1 interpreter    | Go    | MIT
-lefthook             | git hooks manager      | Go    | MIT
-ljredis              | FFI wrapper for crate  | Rust  | MIT
-lucid                | mock child process     | Rust  | MIT
-lz4                  | Fast compression lib   | C     | BSD2
-mailcat              | dummy SMTP server      | C     | MIT
-map                  | map from STDIN         | C     | MIT
-micro                | Terminal-based editor  | Go    | MIT
-minio                | S3 compatible server   | Go    | AGPL3
-mrsh                 | Real Posix shell       | C     | MIT
-mtail                | Prometheus exporter    | Go    | APL2
-node_exporter        | Prometheus exporter    | Go    | APL2
-nushell              | Modern shell           | Rust  | MIT
+Project              | What                   | In    | License   | Tags
+---------------------|------------------------|-------|-----------|-----------------------------------------------
+age                  | Modern encryption tool | Go    | BSD3      | `security` `secrets`
+alertmanager         | Prometheus alerts      | Go    | APL2      | `ops` `prom`
+amber                | Simple secrets         | Rust  | MIT       | `security` `secrets`
+angle-grinder        | Log analysis           | Rust  | MIT       | `logs`
+authelia             | SSO                    | Go    | APL2      | `web` `sso`
+awsls                | list AWS resources     | Go    | MIT       | `ops` `aws` `cloud`
+bat                  | cat(1) clone           | Rust  | APL2      | `coreutils`
+bitcask              | Key/Value store        | Go    | MIT       | `database`
+blacbox_exporter     | Prometheus exporter    | Go    | APL2      | `ops` `prom`
+blake3               | FFI wrapper            | Rust  | MIT       | `ffi`
+bupstash             | Encrypted backups      | Rust  | MIT       | `backup`
+cadvisor             | Container metrics      | Go    | APL2      | `container` `ops`
+cashier              | OpenSSH CA             | Go    | MIT       | `ssh`
+cheat                | CLI cheats             | Go    | MIT       | `docs`
+cloudquery           | Osquery for the cloud  | Go    | MPL2      | `ops` `aws` `cloud`
+coredns              | DNS server/forwarder   | Go    | APL2      | `dns`
+dasel                | JSON, YAML, TOML tool  | Go    | MIT       | `json` `yaml` `toml`
+dash                 | Posix shell            | C     | BSD3      | `shell`
+delta                | Advanced diff          | Rust  | MIT       | `git`
+deno                 | JS and TS runtime      | Rust  | MIT       | `js`
+dhclient             | bare bones DHCP client | Go    | BSD3      | `net`
+direnv               | shell environments     | Go    | MIT       | `shell`
+dlv                  | golang delve(debugger) | Go    | MIT       | `debug`
+dog                  | DNS cli like dig       | Rust  | EUPL      | `dns` `network`
+elvish               | Expressive Shell       | Go    | BSD2      | `shell`
+esshd                | Ephemeral sshd         | Go    | MIT       | `ssh`
+evilnginx2           | Phisher                | Go    | GPL3      | `security` `redteam`
+exa                  | ls(1) replacement      | Rust  | MIT       | `coreutils`
+fd                   | findutils replacement  | Rust  | MIT       | `coreutils`
+flowhouse            | Clickhouse/sflow       | Go    | APL2      | `net`
+fzf                  | CLI fuzzy finder       | Go    | MIT       | `shell`
+glow                 | markdown viewer        | Go    | MIT       | `docs`
+go-init              | PID 1 init             | Go    | MIT       | `container` `init`
+gokart               | golang security lint   | Go    | APL2      | `lint`
+golines              | go code line splitter  | Go    | MIT       | `dev`
+gopkgs               | list Go packages       | Go    | MIT       | `dev`
+gopls                | golang tools gopls     | Go    | BSD3      | `dev`
+gosec                | golang security lint   | Go    | APL2      | `lint`
+gosh                 | sh and shfmt           | Go    | BSD3      | `shell`
+grab                 | grab VCS sources       | Go    | APL2      | `vcs`
+gron                 | make JSON greppable    | Go    | MIT       | `json`
+grype                | container vuln scanner | Go    | APL2      | `security` `scanner`
+gws                  | Google Workspace CLI   | Go    | MIT       | `gws`
+havener              | kubectl wrapper        | Go    | MIT       | `k8s`
+hck                  | cut(1) alternative     | Rust  | Unlicense | `coreutils`
+hi                   | light grep(1)          | C     | MIT       | `coreutils`
+hilbish              | Lua Shell              | Go    | MIT       | `shell` `lua`
+hivemind             | Procfile supervisor    | Go    | MIT       | `init`
+horust               | Process supervisor     | Rust  | MIT       | `init`
+httpx                | HTTP toolkit           | Go    | MIT       | `http` `net`
+hugo                 | Static site generator  | Go    | APL2      | `web` `docs`
+hyperfine            | CLI benchmarks         | Rust  | APL2      | `benchmark`
+jql                  | Lispy JSON processor   | Go    | MIT       | `json`
+kapow                | shell script to HTTP   | Go    | APL2      | `web` `ops`
+kind                 | local Kubernetes       | Go    | APL2      | `k8s`
+kubeadm              | kubeadm                | Go    | APL2      | `k8s`
+kubectl              | kubectl                | Go    | APL2      | `k8s`
+kubelet              | kubelet                | Go    | APL2      | `k8s`
+ladylua              | Lua 5.1 interpreter    | Go    | MIT       | `lua`
+lefthook             | git hooks manager      | Go    | MIT       | `git` `ops`
+ljredis              | FFI wrapper for Redis  | Rust  | MIT       | `ffi` `redis`
+lucid                | mock child process     | Rust  | MIT       | `shell`
+lz4                  | Fast compression lib   | C     | BSD2      | `compress`
+mailcat              | dummy SMTP server      | C     | MIT       | `smtp`
+map                  | map from STDIN         | C     | MIT       | `shell`
+micro                | Terminal-based editor  | Go    | MIT       | `editor`
+minio                | S3 compatible server   | Go    | AGPL3     | `s3` `net`
+mrsh                 | Real Posix shell       | C     | MIT       | `shell`
+mtail                | Prometheus exporter    | Go    | APL2      | `logs` `prom`
+node_exporter        | Prometheus exporter    | Go    | APL2      | `prom`
+nushell              | Modern shell           | Rust  | MIT       | `shell`
 oha                  | TUI HTTP load gen      | Rust  | MIT
 pexec                | fileless ELF execution | C     | MIT
 procs                | ps replacement         | Rust  | MIT
