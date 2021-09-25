@@ -1,4 +1,4 @@
-TAG="RELEASE.2021-08-05T22-01-19Z"
+TAG="RELEASE.2021-09-24T00-24-24Z"
 SRC="https://github.com/minio/minio"
 NAME="minio"
 _git_clone_tag
