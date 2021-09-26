@@ -17,6 +17,7 @@ angle-grinder        | Log analysis           | Rust  | MIT       | `logs`
 authelia             | SSO                    | Go    | APL2      | `web` `sso`
 awsls                | list AWS resources     | Go    | MIT       | `ops` `aws` `cloud`
 bat                  | cat(1) clone           | Rust  | APL2      | `coreutils`
+below                | enhanced atop          | Rust  | APL2      | `coreutils` `ebpf`
 bitcask              | Key/Value store        | Go    | MIT       | `database`
 blacbox_exporter     | Prometheus exporter    | Go    | APL2      | `ops` `prom`
 blake3               | FFI wrapper            | Rust  | MIT       | `ffi`
