@@ -1,0 +1,5 @@
+TAG="v2.3.0"
+SRC="https://github.com/grafana/loki"
+NAME="loki"
+_git_clone_tag
+_go_build ./cmd/loki
