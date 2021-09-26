@@ -73,6 +73,7 @@ kubelet              | kubelet                | Go    | APL2      | `k8s`
 ladylua              | Lua 5.1 interpreter    | Go    | MIT       | `lua`
 lefthook             | git hooks manager      | Go    | MIT       | `git` `ops`
 ljredis              | FFI wrapper for Redis  | Rust  | MIT       | `ffi` `redis`
+loki                 | Prometheus for logs    | Go    | AGPL3     | `logs`
 lucid                | mock child process     | Rust  | MIT       | `shell`
 lz4                  | Fast compression lib   | C     | BSD2      | `compress`
 mailcat              | dummy SMTP server      | C     | MIT       | `smtp`
