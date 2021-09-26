@@ -1,0 +1,5 @@
+TAG="v2.3.0"
+SRC="https://github.com/grafana/loki"
+NAME="promtail"
+_git_clone_tag
+_go_build ./clients/cmd/promtail
