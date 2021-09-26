@@ -89,6 +89,7 @@ pexec                | fileless ELF execution | C     | MIT       | `shell`
 procs                | ps replacement         | Rust  | MIT       | `coreutils`
 prometheus           | metrics                | Go    | APL2      | `prom`
 prom-aggr...-gw...   | Aggregating push gw    | Go    | LGPL3     | `prom`
+promtail             | Grafana Loki agent     | Go    | AGPL3     | `prom` `logs`
 pup                  | jq for HTML            | Go    | MIT       | `html`
 qgrep                | fast indexed grep(1)   | C++   | MIT       | `coreutils`
 redwood              | HTTP proxy             | Go    | BSD2      | `http` `net`
