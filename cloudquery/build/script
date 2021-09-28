@@ -1,4 +1,4 @@
-TAG="v0.4.2"
+TAG="v0.15.4"
 SRC="https://github.com/cloudquery/cloudquery"
 NAME="cloudquery"
 _git_clone_tag
