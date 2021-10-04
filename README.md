@@ -115,6 +115,7 @@ syft                 | BOM generator          | Go    | APL2      | `ops` `dev`
 terrascan            | Vuln scanner           | Go    | APL2      | `cloud` `scanner` `security`
 trivy                | Vuln scanner           | Go    | APL2      | `cloud` `scanner` `security`
 vegeta               | HTTP load testing      | Go    | MIT       | `benchmark` `http`
+webhook              | webhook to exec        | Go    | MIT       | `ops`
 yq                   | YAML processor ala jq  | Go    | MIT       | `yaml`
 yubikey-agent        | SSH-agent for YubiKey  | Go    | BSD3      | `ssh`
 xh                   | cURL httpie alt        | Rust  | MIT       | `http`
