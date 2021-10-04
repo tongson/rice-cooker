@@ -1,0 +1,5 @@
+TAG="2.8.0"
+SRC="https://github.com/adnanh/webhook"
+NAME="webhook"
+_git_clone_tag
+_go_build
