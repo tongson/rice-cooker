@@ -1,5 +1,5 @@
-TAG="v0.23.0"
+TAG="v1.0.1"
 SRC="https://github.com/anchore/syft"
 NAME="syft"
 _git_clone_tag
-_go_build
+_go_build ./cmd/syft
