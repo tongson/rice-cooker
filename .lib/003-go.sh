@@ -34,7 +34,7 @@ _go_tidy_build()
   GOOS="$(_go_os)" GOARCH="$(_go_arch)" CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
     -o "${_TARGET}/${exe}" "${x}"
-  ln -sf "${_TARGET}/${exe}" "${bin}"
+  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${bin}"
 )
 
 _go_build()
@@ -49,7 +49,7 @@ _go_build()
   GOOS="$(_go_os)" GOARCH="$(_go_arch)" CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
     -o "${_TARGET}/${exe}" "${x}"
-  ln -sf "${_TARGET}/${exe}" "${bin}"
+  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${bin}"
 )
 
 _go_build_macos()
@@ -62,7 +62,7 @@ _go_build_macos()
   __mark "go build ${bin}"
   GOOS=darwin GOARCH=amd64 CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
-    -o "${_TARGET}/${bin}.${tag}" "${x}"
+    -o "${_TARGET}/${bin}.${tag}" "${_TARGET}/${x}"
 )
 
 _cgo_build()
@@ -77,7 +77,7 @@ _cgo_build()
   GOOS="$(_go_os)" GOARCH="$(_go_arch)" CGO_ENABLED=1 go build \
     -trimpath -ldflags '-s -w' \
     -o "${_TARGET}/${exe}" "${x}"
-  ln -sf "${_TARGET}/${exe}" "${bin}"
+  ln -sf "${_TARGET}/${exe}" "${_TARGET}/${bin}"
 )
 
 _go_build_submodule()
@@ -91,7 +91,7 @@ _go_build_submodule()
   __mark "go build ${bin}"
   GOOS=linux CGO_ENABLED=0 go build \
     -trimpath -ldflags '-s -w' \
-    -o "${_TARGET}/${bin}.${tag}" "${x}"
+    -o "${_TARGET}/${bin}.${tag}" "${_TARGET}/${x}"
 )
 
 _go_generate()
