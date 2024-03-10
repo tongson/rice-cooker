@@ -37,6 +37,7 @@ direnv               | shell environments     | Go    | MIT       | `shell`
 dlv                  | golang delve(debugger) | Go    | MIT       | `debug`
 dog                  | DNS cli like dig       | Rust  | EUPL      | `dns` `network`
 elvish               | Expressive Shell       | Go    | BSD2      | `shell`
+errcheck             | Did you check errors?  | Go    | MIT       | `go` `dev`
 esshd                | Ephemeral sshd         | Go    | MIT       | `ssh`
 evilnginx2           | Phisher                | Go    | GPL3      | `security` `redteam`
 exa                  | ls(1) replacement      | Rust  | MIT       | `coreutils`
