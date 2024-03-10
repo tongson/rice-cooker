@@ -1,4 +1,4 @@
-TAG="2021.1.1"
+TAG="2023.1.7"
 SRC="https://github.com/dominikh/go-tools"
 NAME="staticcheck"
 _git_clone_tag
