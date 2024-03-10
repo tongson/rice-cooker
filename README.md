@@ -37,7 +37,7 @@ direnv               | shell environments     | Go    | MIT       | `shell`
 dlv                  | golang delve(debugger) | Go    | MIT       | `debug`
 dog                  | DNS cli like dig       | Rust  | EUPL      | `dns` `network`
 elvish               | Expressive Shell       | Go    | BSD2      | `shell`
-errcheck             | Did you check errors?  | Go    | MIT       | `go` `dev`
+errcheck             | Did you check errors?  | Go    | MIT       | `go` `dev` `lint`
 esshd                | Ephemeral sshd         | Go    | MIT       | `ssh`
 evilnginx2           | Phisher                | Go    | GPL3      | `security` `redteam`
 exa                  | ls(1) replacement      | Rust  | MIT       | `coreutils`
@@ -101,7 +101,7 @@ rg                   | ripgrep                | Rust  | MIT       | `coreutils`
 rr                   | shell script over SSH  | Go    | MIT       | `shell` `ops`
 saw                  | AWS CloudWatch tool    | Go    | MIT       | `aws` `ops`
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT       | `smtp` `telegram` `alerts`
-staticcheck          | Go linter              | Go    | MIT       | `lint`
+staticcheck          | Go linter              | Go    | MIT       | `go` `dev` `lint`
 sops                 | simple secrets manager | Go    | MPL2      | `security` `secrets` `ops`
 sqlite3              | No description needed  | C     | PD        | `database`
 terraform            | Premier IaaC tool      | Go    | MPL2      | `ops` `cloud`
