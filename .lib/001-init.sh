@@ -7,13 +7,13 @@ _trap()
   # Assigning the exit code MUST be the first line here
   local exit_status=${1:-$?}
   rm -rf "${_WORK}"
-  if [ $exit_status = 0 ]
+  if [ "$exit_status" = 0 ]
   then
     __mark "Cleaned up."
   else
     set +u
     # The FUNCNAME throws a bad substition error on BushBox sh and dash
-    if test -z ${BASH}
+    if test -z "${BASH}"
     then
       {
         __mark "Something went wrong.";
