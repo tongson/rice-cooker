@@ -48,6 +48,7 @@ glow                 | markdown viewer        | Go    | MIT       | `docs`
 go-init              | PID 1 init             | Go    | MIT       | `container` `init`
 gokart               | golang security lint   | Go    | APL2      | `lint`
 golines              | go code line splitter  | Go    | MIT       | `dev`
+golint               | go all-in-one linter   | Go    | GPL3      | `dev`
 gopkgs               | list Go packages       | Go    | MIT       | `dev`
 gopls                | golang tools gopls     | Go    | BSD3      | `dev`
 gosec                | golang security lint   | Go    | APL2      | `lint`

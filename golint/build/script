@@ -1,0 +1,5 @@
+SRC="https://github.com/golangci/golangci-lint"
+NAME="golint"
+TAG="v1.57.2"
+_git_clone_tag
+_go_build ./cmd/golangci-lint
