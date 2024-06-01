@@ -1,0 +1,5 @@
+SRC="https://github.com/orlangure/gocovsh"
+NAME="gocovsh"
+TAG="v0.6.1"
+_git_clone_tag
+_go_build

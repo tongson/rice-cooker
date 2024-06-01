@@ -46,6 +46,7 @@ flowhouse            | Clickhouse/sflow       | Go    | APL2      | `net`
 fzf                  | CLI fuzzy finder       | Go    | MIT       | `shell`
 glow                 | markdown viewer        | Go    | MIT       | `docs`
 go-init              | PID 1 init             | Go    | MIT       | `container` `init`
+gocovsh              | Go coverage reporting  | Go    | GPL3      | `dev`
 gokart               | golang security lint   | Go    | APL2      | `lint`
 golines              | go code line splitter  | Go    | MIT       | `dev`
 golint               | go all-in-one linter   | Go    | GPL3      | `dev`
