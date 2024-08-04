@@ -104,22 +104,22 @@ rewrite              | sponge(1) in Rust      | Rust  | MIT       | `coreutils`
 rg                   | ripgrep                | Rust  | MIT       | `coreutils`
 rr                   | shell script over SSH  | Go    | MIT       | `shell` `ops`
 saw                  | AWS CloudWatch tool    | Go    | MIT       | `aws` `ops`
+shfmt                | Shell script formatter | Go    | BSD3      | `shell`
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT       | `smtp` `telegram` `alerts`
 staticcheck          | Go linter              | Go    | MIT       | `go` `dev` `lint`
 sops                 | simple secrets manager | Go    | MPL2      | `security` `secrets` `ops`
 sqlite3              | No description needed  | C     | PD        | `database`
+stylua               | lua fmt                | Rust  | MPL2      | `lint` `lua`
+swarp                | static http server     | Rust  | MIT       | `http` `net`
+syft                 | BOM generator          | Go    | APL2      | `ops` `dev`
 terraform            | Premier IaaC tool      | Go    | MPL2      | `ops` `cloud`
+terrascan            | Vuln scanner           | Go    | APL2      | `cloud` `scanner` `security`
 tflow2               | Netflow/Sflow analyzer | Go    | APL2      | `net` `logs`
 topfew               | sort uniq head alt.    | Go    | GPL3      | `coreutils`
 traefik              | Modern reverse proxy   | Go    | MIT       | `http` `net`
 trim                 | remove prefix          | C     | MIT       | `coreutils`
-unbound_exporter     | Prometheus exporter    | Go    | APL2      | `prom` `net`
-shfmt                | Shell script formatter | Go    | BSD3      | `shell`
-stylua               | lua fmt                | Rust  | MPL2      | `lint` `lua`
-swarp                | static http server     | Rust  | MIT       | `http` `net`
-syft                 | BOM generator          | Go    | APL2      | `ops` `dev`
-terrascan            | Vuln scanner           | Go    | APL2      | `cloud` `scanner` `security`
 trivy                | Vuln scanner           | Go    | APL2      | `cloud` `scanner` `security`
+unbound_exporter     | Prometheus exporter    | Go    | APL2      | `prom` `net`
 vegeta               | HTTP load testing      | Go    | MIT       | `benchmark` `http`
 webhook              | webhook to exec        | Go    | MIT       | `ops`
 yq                   | YAML processor ala jq  | Go    | MIT       | `yaml`
