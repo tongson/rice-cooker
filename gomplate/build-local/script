@@ -1,0 +1,5 @@
+cd "$HOME/github/rr"
+__mark 'test'
+GOARCH=386 GOOS=linux CGO_ENABLED=0 go build \
+    -trimpath -ldflags '-s -w' \
+    -o "$HOME/bin/rr.local" "./cmd/rr"

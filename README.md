@@ -50,6 +50,7 @@ gocovsh              | Go coverage reporting  | Go    | GPL3      | `dev`
 gokart               | golang security lint   | Go    | APL2      | `lint`
 golines              | go code line splitter  | Go    | MIT       | `dev`
 golint               | go all-in-one linter   | Go    | GPL3      | `dev`
+gomplate             | Templating             | Go    | MIT       | `shell`
 gopkgs               | list Go packages       | Go    | MIT       | `dev`
 gopls                | golang tools gopls     | Go    | BSD3      | `dev`
 gosec                | golang security lint   | Go    | APL2      | `lint`
@@ -113,6 +114,7 @@ topfew               | sort uniq head alt.    | Go    | GPL3      | `coreutils`
 traefik              | Modern reverse proxy   | Go    | MIT       | `http` `net`
 trim                 | remove prefix          | C     | MIT       | `coreutils`
 unbound_exporter     | Prometheus exporter    | Go    | APL2      | `prom` `net`
+shfmt                | Shell script formatter | Go    | BSD3      | `shell`
 stylua               | lua fmt                | Rust  | MPL2      | `lint` `lua`
 swarp                | static http server     | Rust  | MIT       | `http` `net`
 syft                 | BOM generator          | Go    | APL2      | `ops` `dev`

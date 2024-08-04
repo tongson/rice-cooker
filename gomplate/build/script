@@ -1,0 +1,5 @@
+SRC="https://github.com/hairyhenderson/gomplate"
+NAME="gomplate"
+TAG="v4.1.0"
+_git_clone_tag
+_go_build ./cmd/gomplate

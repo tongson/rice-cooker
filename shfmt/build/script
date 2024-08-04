@@ -1,0 +1,5 @@
+SRC="https://github.com/mvdan/sh"
+NAME="shfmt"
+TAG="v3.8.0"
+_git_clone_tag
+_go_build ./cmd/shfmt shfmt
