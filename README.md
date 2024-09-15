@@ -110,6 +110,7 @@ smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT       | `smtp` `tele
 staticcheck          | Go linter              | Go    | MIT       | `go` `dev` `lint`
 sops                 | simple secrets manager | Go    | MPL2      | `security` `secrets` `ops`
 sqlite3              | No description needed  | C     | PD        | `database`
+step                 | PKI swiss knife        | Go    | APL2      | `security`
 stylua               | lua fmt                | Rust  | MPL2      | `lint` `lua`
 swarp                | static http server     | Rust  | MIT       | `http` `net`
 syft                 | BOM generator          | Go    | APL2      | `ops` `dev`
