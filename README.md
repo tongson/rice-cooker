@@ -69,6 +69,7 @@ httpx                | HTTP toolkit           | Go    | MIT       | `http` `net`
 hugo                 | Static site generator  | Go    | APL2      | `web` `docs`
 hyperfine            | CLI benchmarks         | Rust  | APL2      | `benchmark`
 jql                  | Lispy JSON processor   | Go    | MIT       | `json`
+joker                | Clojure interpreter    | Go    | EPL       | `lang`
 kapow                | shell script to HTTP   | Go    | APL2      | `web` `ops`
 kind                 | local Kubernetes       | Go    | APL2      | `k8s`
 kubeadm              | kubeadm                | Go    | APL2      | `k8s`
