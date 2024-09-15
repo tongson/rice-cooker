@@ -4,7 +4,7 @@ BYOB(Build your own binaries) <br/>
 Brings me back to my Gentoo & Source Mage days. <br/>
 
 WARNING: Some of the recipes may build from the main/master/default branch. Do your own tests.
-REQUIRES: [rr](https://github.com/tongson/rr)
+REQUIRES: [taarr](https://github.com/tongson/taarr)
 
 Default installation directory is `$HOME/bin`.
 
@@ -103,7 +103,7 @@ redisjson            | JSON type for Redis    | Rust  | RSAL      | `json` `redi
 refmt                | json, yaml, toml       | Rust  | MIT       | `json` `yaml` `toml`
 rewrite              | sponge(1) in Rust      | Rust  | MIT       | `coreutils`
 rg                   | ripgrep                | Rust  | MIT       | `coreutils`
-rr                   | shell script over SSH  | Go    | MIT       | `shell` `ops`
+taarr                | shell script manager   | Go    | MIT       | `shell` `ops`
 saw                  | AWS CloudWatch tool    | Go    | MIT       | `aws` `ops`
 shfmt                | Shell script formatter | Go    | BSD3      | `shell`
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT       | `smtp` `telegram` `alerts`

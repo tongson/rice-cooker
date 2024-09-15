@@ -1,5 +1,0 @@
-SRC="https://github.com/tongson/rr"
-NAME="rr"
-TAG="0.19.0"
-_git_clone_tag
-_go_build

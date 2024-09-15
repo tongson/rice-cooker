@@ -1,0 +1,5 @@
+SRC="https://github.com/tongson/taarr"
+NAME="rr"
+TAG="2.6.0"
+_git_clone_tag
+_go_build
