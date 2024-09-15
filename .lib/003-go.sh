@@ -98,5 +98,5 @@ _go_generate()
 (
   _go_prelude
   cd "${NAME}" || exit 1
-  go generate
+  go generate ./...
 )
