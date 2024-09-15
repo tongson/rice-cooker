@@ -1,0 +1,5 @@
+SRC="https://github.com/smallstep/certificates"
+NAME="step-ca"
+TAG="v0.26.1"
+_git_clone_tag
+_go_build ./cmd/step-ca
