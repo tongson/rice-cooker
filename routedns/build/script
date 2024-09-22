@@ -1,0 +1,4 @@
+SRC="https://github.com/folbricht/routedns"
+NAME="routedns"
+_git_clone
+_go_build ./cmd/routedns routedns

@@ -103,6 +103,7 @@ redisjson            | JSON type for Redis    | Rust  | RSAL      | `json` `redi
 refmt                | json, yaml, toml       | Rust  | MIT       | `json` `yaml` `toml`
 rewrite              | sponge(1) in Rust      | Rust  | MIT       | `coreutils`
 rg                   | ripgrep                | Rust  | MIT       | `coreutils`
+routedns             | stub resolver          | Go    | BSD3      | `dns`
 taarr                | shell script manager   | Go    | MIT       | `shell` `ops`
 saw                  | AWS CloudWatch tool    | Go    | MIT       | `aws` `ops`
 shfmt                | Shell script formatter | Go    | BSD3      | `shell`
