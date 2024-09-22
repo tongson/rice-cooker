@@ -108,6 +108,7 @@ saw                  | AWS CloudWatch tool    | Go    | MIT       | `aws` `ops`
 shfmt                | Shell script formatter | Go    | BSD3      | `shell`
 smtp_to_telegram     | SMTP relay to Telegram | Go    | MIT       | `smtp` `telegram` `alerts`
 staticcheck          | Go linter              | Go    | MIT       | `go` `dev` `lint`
+sol                  | explode shell scripts  | Go    | MIT       | `shell`
 sops                 | simple secrets manager | Go    | MPL2      | `security` `secrets` `ops`
 sqlite3              | No description needed  | C     | PD        | `database`
 step                 | PKI swiss knife        | Go    | APL2      | `security`

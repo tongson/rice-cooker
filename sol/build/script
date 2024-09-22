@@ -1,0 +1,4 @@
+SRC="https://github.com/noperator/sol"
+NAME="sol"
+_git_clone
+_go_build ./cmd/sol sol
