@@ -101,6 +101,7 @@ qgrep                | fast indexed grep(1)   | C++   | MIT       | `coreutils`
 redwood              | HTTP proxy             | Go    | BSD2      | `http` `net`
 redisjson            | JSON type for Redis    | Rust  | RSAL      | `json` `redis`
 refmt                | json, yaml, toml       | Rust  | MIT       | `json` `yaml` `toml`
+restish              | interact with REST     | Go    | MIT       | `web` `dev` `http`
 rewrite              | sponge(1) in Rust      | Rust  | MIT       | `coreutils`
 rg                   | ripgrep                | Rust  | MIT       | `coreutils`
 routedns             | stub resolver          | Go    | BSD3      | `dns`

@@ -1,0 +1,5 @@
+SRC="https://github.com/danielgtaylor/restish"
+NAME="restish"
+TAG="v0.20.0"
+_git_clone_tag
+_go_build
