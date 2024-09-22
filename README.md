@@ -128,6 +128,7 @@ trivy                | Vuln scanner           | Go    | APL2      | `cloud` `sca
 unbound_exporter     | Prometheus exporter    | Go    | APL2      | `prom` `net`
 vegeta               | HTTP load testing      | Go    | MIT       | `benchmark` `http`
 webhook              | webhook to exec        | Go    | MIT       | `ops`
+websocketd           | stdout stderr to ws    | Go    | BSD2      | `web` `net`
 yq                   | YAML processor ala jq  | Go    | MIT       | `yaml`
 yubikey-agent        | SSH-agent for YubiKey  | Go    | BSD3      | `ssh`
 xh                   | cURL httpie alt        | Rust  | MIT       | `http`

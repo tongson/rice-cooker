@@ -1,0 +1,4 @@
+SRC="https://github.com/joewalnes/websocketd"
+NAME="websocketd"
+_git_clone
+_go_build
